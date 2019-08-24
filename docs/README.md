@@ -1,19 +1,17 @@
-## Gazebo Actor Support Project
-
-### Introduction
+## Introduction
 
 Gazebo is being migrated to Ignition Robotics, which is a refactor of Gazebo's source code, breaking it into smaller reusable libraries and making them more powerful and flexible in the process. This project is about migrating skeleton animation, i.e. actors, so they can be loaded into Ignition Gazebo. The work will involve making sure that Collada skins and animations, as well as BVH animations, are loaded and animated correctly using SDFormat, Ignition Rendering and Ignition Common.
 
-### Quick Overview
+## Quick Overview
 
-#### What is done?
+### What is done?
 **Actor simulation** is now supported in Ignition Gazebo. The actor can be loaded from **Collada files (.dae)**, and the actor animations can be specified by both Collada files (.dae) and **BVH files (.bvh)**. We also add support to allow the **Actor follow predefined trajectories**. 
 
-#### Any demo?
+### Any demo?
 
 <img src="gazebo_sequence.gif" alt="gazebo_sequence" width="400px"/>
 
-#### How to use?
+### How to use?
 * By including the actor model from the Fuel (check [usage](#usage) for more details), e.g.,:
 
 ``` xml
@@ -33,13 +31,13 @@ Gazebo is being migrated to Ignition Robotics, which is a refactor of Gazebo's s
 </actor>
 ```
 
-### Implementations
+## Implementations
 
 The whole project consists of three phases, as illustrated in the figure below: 
 
 <img src="flowchart.png" alt="flowchart" width="800px"/>
 
-#### Prepare actor for Gazebo
+### Prepare actor for Gazebo
 This phase consists of two parts: parsing actor sdf and testing the skins and animations. 
 
 The parsing process is standard: first obtain values from xml tag given by the [definition](https://bitbucket.org/osrf/sdformat/src/default/sdf/1.6/actor.sdf), and then populate the properties with these values in `sdformat`. This parsing process is to prepare necessary information for Gazebo to load the actor.
@@ -68,7 +66,7 @@ The following gifs show the rendering results (with Ogre engine).
 
 Note that this rendering of actor is a standalone example (not in Gazebo). 
 
-#### Load actor in Gazebo
+### Load actor in Gazebo
 The rendering of actor in Gazebo needs two more steps. The first step is to load the mesh and animations based on the input sdf, and the second step is to bridge the communication between the gz-client and the gz-server so that the actor can be visually presented at the client side.
 
 1. Step 1: Load the mesh and animations according to the sdf, see [ign-gazebo PR](https://bitbucket.org/ignitionrobotics/ign-gazebo/pull-requests/414):
@@ -83,7 +81,7 @@ The rendering of actor in Gazebo needs two more steps. The first step is to load
  * `ignition::gazebo::convert`: conversion between an actor message and an actor
 
 
-#### Update actor in Gazebo
+### Update actor in Gazebo
 The updating of an actor requires to update the global pose (i.e., following trajectories) in the world and the skeleton transformations (i.e., playing animations) in the local frames. These two process need to be synchronized to avoid any misalignment between the two poses (the global pose and the local pose). For example, if the walking animation (local poses) is not synchronized with the actor world pose (global pose), the actor may appear to be sliding on the floor rather than walking. 
 
 To synchronize the trajectory following and animation playing, a new class, `TrajectoryInfo`, was created under the same file with `common::Animation`, see [ign-common PR](https://bitbucket.org/ignitionrobotics/ign-common/pull-requests/197). 
@@ -126,10 +124,10 @@ Several common actor models are created in the [Fuel](https://app.ignitionroboti
 * actor_talk_b: https://app.ignitionrobotics.org/Mingfei/models/actor_talk_b
 * actor_walk: https://app.ignitionrobotics.org/Mingfei/models/actor_walk
 
-### Usage
+## Usage
 There are two ways to load an actor. One is to use the existing models in the [Fuel](https://app.ignitionrobotics.org/fuel/models). Another is to explicitly create an actor tag in the sdf file. 
 
-#### Using existing models
+### Using existing models
 Below are actor-related models from the Fuel:
 
 * An actor following a sequence of trajectories with different animations: [actor](https://app.ignitionrobotics.org/Mingfei/models/actor)
@@ -152,7 +150,7 @@ To use the above model, we include the model in the sdf file. For example, the f
 </include>
 ```
 
-#### Using actor tag
+### Using actor tag
 The actor can also be manully specified in the sdf models, .e.g., 
 
 ``` xml
@@ -185,7 +183,7 @@ The actor can also be manully specified in the sdf models, .e.g.,
 </actor>
 ```
 
-### Code release
+## Code release
 
 **Actor-related PRs**:
 All PRs of this project are listed below. 
@@ -210,7 +208,7 @@ This project also solves several bugs in existing repositories.
 * Ign-common: https://bitbucket.org/ignitionrobotics/ign-common/pull-requests/195
 * Ign-gui: https://bitbucket.org/ignitionrobotics/ign-gui/pull-requests/214/
 
-### Future work: 
+## Future work: 
 
 * Support Ogre2
 * Support plugins for actor
