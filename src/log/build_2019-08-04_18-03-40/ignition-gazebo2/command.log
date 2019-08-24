@@ -1,0 +1,6 @@
+Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake /home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo -DBUILD_TESTING=false -DCMAKE_INSTALL_PREFIX=/home/mingfei/Documents/GSoC/ws_blueprint/src/install
+Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake /home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo -DBUILD_TESTING=false -DCMAKE_INSTALL_PREFIX=/home/mingfei/Documents/GSoC/ws_blueprint/src/install
+Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 -- -j6 -l6
+Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 -- -j6 -l6
+Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 --target install
+Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 --target install

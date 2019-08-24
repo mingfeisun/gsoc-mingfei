@@ -1,0 +1,9 @@
+syntax: glob
+
+build
+build_*
+.DS_Store
+*.swp
+
+test-server/node_modules
+test-server/npm-debug.log

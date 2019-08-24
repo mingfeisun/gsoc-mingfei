@@ -1,0 +1,56 @@
+include (${sdf_cmake_dir}/SDFUtils.cmake)
+
+set (headers
+  Actor.hh
+  AirPressure.hh
+  Altimeter.hh
+  Assert.hh
+  Atmosphere.hh
+  Box.hh
+  Camera.hh
+  Collision.hh
+  Console.hh
+  Cylinder.hh
+  Element.hh
+  Error.hh
+  Exception.hh
+  Filesystem.hh
+  Geometry.hh
+  Gui.hh
+  Imu.hh
+  Joint.hh
+  JointAxis.hh
+  Lidar.hh
+  Light.hh
+  Link.hh
+  Magnetometer.hh
+  Material.hh
+  Mesh.hh
+  Model.hh
+  Noise.hh
+  Param.hh
+  parser.hh
+  Pbr.hh
+  Physics.hh
+  Plane.hh
+  Root.hh
+  Scene.hh
+  SDFImpl.hh
+  Sensor.hh
+  Sphere.hh
+  Types.hh
+  system_util.hh
+  Visual.hh
+  World.hh
+)
+
+set (sdf_headers "" CACHE INTERNAL "SDF headers" FORCE)
+foreach (hdr ${headers})
+  APPEND_TO_CACHED_STRING(sdf_headers
+    "SDF Headers" "#include <sdf/${hdr}>\n")
+endforeach()
+configure_file (${CMAKE_CURRENT_SOURCE_DIR}/sdf.hh.in
+                ${CMAKE_CURRENT_BINARY_DIR}/sdf.hh)
+
+sdf_install_includes("" ${headers} parser_urdf.hh
+  ${CMAKE_CURRENT_BINARY_DIR}/sdf.hh)

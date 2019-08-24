@@ -1,0 +1,718 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (ignition-gazebo2) JobQueued: {'identifier': 'ignition-gazebo2', 'dependencies': OrderedDict([('ignition-cmake2', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-tools', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-math6', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-common3', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-msgs4', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('sdformat8', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-fuel_tools3', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-plugin1', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-transport7', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-physics1', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-rendering2', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-gui2', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install'), ('ignition-sensors2', '/home/mingfei/Documents/GSoC/ws_blueprint/src/install')])}
+[0.000344] (ignition-gazebo2) JobStarted: {'identifier': 'ignition-gazebo2'}
+[0.023775] (ignition-gazebo2) JobProgress: {'identifier': 'ignition-gazebo2', 'progress': 'cmake'}
+[0.026316] (ignition-gazebo2) JobProgress: {'identifier': 'ignition-gazebo2', 'progress': 'build'}
+[0.029646] (ignition-gazebo2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2', '--', '-j6', '-l6'], 'cwd': '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mingfei'), ('LANGUAGE', 'en_HK:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/mingfei/Documents/GSoC/ws_blueprint'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/mingfei'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '823'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ac1fbd8c8a49d2494c0a11a5d417f22'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'mingfei'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:23411'), ('_', '/usr/local/bin/colcon'), ('PKG_CONFIG_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install/lib/pkgconfig'), ('USERNAME', 'mingfei'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '8a868e9963944f69b5e9f1a27baed05e'), ('SESSION_MANAGER', 'local/mingfei-VirtualBox:@/tmp/.ICE-unix/940,unix/mingfei-VirtualBox:/tmp/.ICE-unix/940'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/84f1d258_5db8_4ae5_b7fe_26a5c11f897a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.627'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ac1fbd8c8a49d2494c0a11a5d417f22'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install')]), 'shell': False}
+[0.099971] (-) TimerEvent: {}
+[0.139319] (ignition-gazebo2) StdoutLine: {'line': b'[  4%] Built target ignition-gazebo_private_msgs\n'}
+[0.140335] (ignition-gazebo2) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating API documentation with Doxygen\x1b[0m\n'}
+[0.168258] (ignition-gazebo2) StdoutLine: {'line': b'[  6%] Built target gtest\n'}
+[0.198994] (ignition-gazebo2) StdoutLine: {'line': b'[  8%] Built target gtest_main\n'}
+[0.199963] (-) TimerEvent: {}
+[0.224842] (ignition-gazebo2) StdoutLine: {'line': b'[ 29%] Built target ignition-gazebo2\n'}
+[0.251425] (ignition-gazebo2) StdoutLine: {'line': b'[ 30%] Built target ign-gazebo-exec\n'}
+[0.261642] (ignition-gazebo2) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mAutomatic MOC for target ignition-gazebo2-gui\x1b[0m\n'}
+[0.268081] (ignition-gazebo2) StdoutLine: {'line': b'[ 33%] Built target ign-gazebo-server\n'}
+[0.270238] (ignition-gazebo2) StdoutLine: {'line': b'[ 36%] Built target ignition-gazebo2-rendering\n'}
+[0.270599] (ignition-gazebo2) StdoutLine: {'line': b'[ 38%] Built target ignition-gazebo2-air-pressure-system\n'}
+[0.280820] (ignition-gazebo2) StdoutLine: {'line': b'[ 40%] Built target ignition-gazebo2-altimeter-system\n'}
+[0.290656] (ignition-gazebo2) StdoutLine: {'line': b'[ 40%] Built target ignition-gazebo2-gui_autogen\n'}
+[0.300380] (ignition-gazebo2) StdoutLine: {'line': b'[ 42%] Built target ignition-gazebo2-linearbatteryplugin-system\n'}
+[0.300726] (-) TimerEvent: {}
+[0.302048] (ignition-gazebo2) StdoutLine: {'line': b'[ 44%] Built target ignition-gazebo2-contact-system\n'}
+[0.308627] (ignition-gazebo2) StdoutLine: {'line': b'[ 46%] Built target ignition-gazebo2-diff-drive-system\n'}
+[0.309791] (ignition-gazebo2) StdoutLine: {'line': b'[ 47%] Built target ignition-gazebo2-apply-joint-force-system\n'}
+[0.324110] (ignition-gazebo2) StdoutLine: {'line': b'[ 49%] Built target ignition-gazebo2-imu-system\n'}
+[0.330585] (ignition-gazebo2) StdoutLine: {'line': b'[ 51%] Built target ignition-gazebo2-joint-controller-system\n'}
+[0.341195] (ignition-gazebo2) StdoutLine: {'line': b'[ 52%] Built target ignition-gazebo2-joint-state-publisher-system\n'}
+[0.341586] (ignition-gazebo2) StdoutLine: {'line': b'[ 54%] Built target ignition-gazebo2-lift-drag-system\n'}
+[0.353765] (ignition-gazebo2) StdoutLine: {'line': b'[ 56%] Built target ignition-gazebo2-logical-camera-system\n'}
+[0.358807] (ignition-gazebo2) StdoutLine: {'line': b'[ 58%] Built target ignition-gazebo2-log-system\n'}
+[0.361540] (ignition-gazebo2) StdoutLine: {'line': b'[ 59%] Built target ignition-gazebo2-magnetometer-system\n'}
+[0.370739] (ignition-gazebo2) StdoutLine: {'line': b'[ 61%] Built target ignition-gazebo2-multicopter-motor-model-system\n'}
+[0.386148] (ignition-gazebo2) StdoutLine: {'line': b'[ 64%] Built target ignition-gazebo2-physics-system\n'}
+[0.386482] (ignition-gazebo2) StdoutLine: {'line': b'[ 64%] Built target ignition-gazebo2-pose-publisher-system\n'}
+[0.389309] (ignition-gazebo2) StdoutLine: {'line': b'[ 65%] Built target ignition-gazebo2-sensors-system\n'}
+[0.398204] (ignition-gazebo2) StdoutLine: {'line': b'[ 67%] Built target ignition-gazebo2-scene-broadcaster-system\n'}
+[0.400888] (-) TimerEvent: {}
+[0.412425] (ignition-gazebo2) StdoutLine: {'line': b'[ 69%] Built target ignition-gazebo2-touchplugin-system\n'}
+[0.417370] (ignition-gazebo2) StdoutLine: {'line': b'[ 71%] Built target ignition-gazebo2-user-commands-system\n'}
+[0.419992] (ignition-gazebo2) StdoutLine: {'line': b'[ 72%] Built target ignition-gazebo2-wind-effects-system\n'}
+[0.452022] (ignition-gazebo2) StdoutLine: {'line': b'[ 82%] Built target ignition-gazebo2-gui\n'}
+[0.496932] (ignition-gazebo2) StdoutLine: {'line': b'[ 84%] Built target ign-gazebo-gui\n'}
+[0.501016] (-) TimerEvent: {}
+[0.504902] (ignition-gazebo2) StdoutLine: {'line': b'[ 89%] Built target TransformControl\n'}
+[0.511353] (ignition-gazebo2) StdoutLine: {'line': b'[ 90%] Built target ignition-gazebo2-ign\n'}
+[0.519369] (ignition-gazebo2) StdoutLine: {'line': b'[ 99%] Built target EntityTree\n'}
+[0.519601] (ignition-gazebo2) StdoutLine: {'line': b'[100%] Built target GzScene3D\n'}
+[0.601870] (-) TimerEvent: {}
+[0.702590] (-) TimerEvent: {}
+[0.803530] (-) TimerEvent: {}
+[0.904854] (-) TimerEvent: {}
+[1.006985] (-) TimerEvent: {}
+[1.108301] (-) TimerEvent: {}
+[1.209495] (-) TimerEvent: {}
+[1.311155] (-) TimerEvent: {}
+[1.412314] (-) TimerEvent: {}
+[1.520868] (-) TimerEvent: {}
+[1.622078] (-) TimerEvent: {}
+[1.725132] (-) TimerEvent: {}
+[1.826289] (-) TimerEvent: {}
+[1.927547] (-) TimerEvent: {}
+[2.028598] (-) TimerEvent: {}
+[2.129787] (-) TimerEvent: {}
+[2.231132] (-) TimerEvent: {}
+[2.332252] (-) TimerEvent: {}
+[2.433984] (-) TimerEvent: {}
+[2.535059] (-) TimerEvent: {}
+[2.636107] (-) TimerEvent: {}
+[2.738039] (-) TimerEvent: {}
+[2.839927] (-) TimerEvent: {}
+[2.940914] (-) TimerEvent: {}
+[3.050198] (-) TimerEvent: {}
+[3.151319] (-) TimerEvent: {}
+[3.254890] (-) TimerEvent: {}
+[3.361335] (-) TimerEvent: {}
+[3.462907] (-) TimerEvent: {}
+[3.563823] (-) TimerEvent: {}
+[3.664897] (-) TimerEvent: {}
+[3.766975] (-) TimerEvent: {}
+[3.868659] (-) TimerEvent: {}
+[3.969760] (-) TimerEvent: {}
+[4.070884] (-) TimerEvent: {}
+[4.172101] (-) TimerEvent: {}
+[4.276157] (-) TimerEvent: {}
+[4.378584] (-) TimerEvent: {}
+[4.488280] (-) TimerEvent: {}
+[4.591610] (-) TimerEvent: {}
+[4.693516] (-) TimerEvent: {}
+[4.794606] (-) TimerEvent: {}
+[4.896016] (-) TimerEvent: {}
+[4.997695] (-) TimerEvent: {}
+[5.098544] (-) TimerEvent: {}
+[5.199863] (-) TimerEvent: {}
+[5.301623] (-) TimerEvent: {}
+[5.402917] (-) TimerEvent: {}
+[5.504061] (-) TimerEvent: {}
+[5.607036] (-) TimerEvent: {}
+[5.708565] (-) TimerEvent: {}
+[5.810253] (-) TimerEvent: {}
+[5.911779] (-) TimerEvent: {}
+[6.014019] (-) TimerEvent: {}
+[6.115292] (-) TimerEvent: {}
+[6.219771] (-) TimerEvent: {}
+[6.297774] (ignition-gazebo2) StdoutLine: {'line': b'[100%] Built target doc\n'}
+[6.316436] (ignition-gazebo2) CommandEnded: {'returncode': 0}
+[6.320973] (-) TimerEvent: {}
+[6.419024] (ignition-gazebo2) JobProgress: {'identifier': 'ignition-gazebo2', 'progress': 'install'}
+[6.424999] (-) TimerEvent: {}
+[6.427876] (ignition-gazebo2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2', '--target', 'install'], 'cwd': '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mingfei'), ('LANGUAGE', 'en_HK:en'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1036'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/mingfei/Documents/GSoC/ws_blueprint'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/mingfei'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '823'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ac1fbd8c8a49d2494c0a11a5d417f22'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install'), ('IM_CONFIG_PHASE', '2'), ('LOGNAME', 'mingfei'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:23411'), ('_', '/usr/local/bin/colcon'), ('PKG_CONFIG_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install/lib/pkgconfig'), ('USERNAME', 'mingfei'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '8a868e9963944f69b5e9f1a27baed05e'), ('SESSION_MANAGER', 'local/mingfei-VirtualBox:@/tmp/.ICE-unix/940,unix/mingfei-VirtualBox:/tmp/.ICE-unix/940'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/84f1d258_5db8_4ae5_b7fe_26a5c11f897a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_HK.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.627'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8ac1fbd8c8a49d2494c0a11a5d417f22'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/mingfei/Documents/GSoC/ws_blueprint/install')]), 'shell': False}
+[6.525008] (-) TimerEvent: {}
+[6.543982] (ignition-gazebo2) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating API documentation with Doxygen\x1b[0m\n'}
+[6.626968] (-) TimerEvent: {}
+[6.728428] (-) TimerEvent: {}
+[6.832893] (-) TimerEvent: {}
+[6.933906] (-) TimerEvent: {}
+[7.035158] (-) TimerEvent: {}
+[7.136305] (-) TimerEvent: {}
+[7.237791] (-) TimerEvent: {}
+[7.340459] (-) TimerEvent: {}
+[7.441894] (-) TimerEvent: {}
+[7.543181] (-) TimerEvent: {}
+[7.644720] (-) TimerEvent: {}
+[7.745835] (-) TimerEvent: {}
+[7.847449] (-) TimerEvent: {}
+[7.952057] (-) TimerEvent: {}
+[8.059745] (-) TimerEvent: {}
+[8.160617] (-) TimerEvent: {}
+[8.261856] (-) TimerEvent: {}
+[8.362960] (-) TimerEvent: {}
+[8.464030] (-) TimerEvent: {}
+[8.567470] (-) TimerEvent: {}
+[8.668493] (-) TimerEvent: {}
+[8.769831] (-) TimerEvent: {}
+[8.871503] (-) TimerEvent: {}
+[8.972718] (-) TimerEvent: {}
+[9.075467] (-) TimerEvent: {}
+[9.179801] (-) TimerEvent: {}
+[9.280986] (-) TimerEvent: {}
+[9.381995] (-) TimerEvent: {}
+[9.482731] (-) TimerEvent: {}
+[9.588047] (-) TimerEvent: {}
+[9.689019] (-) TimerEvent: {}
+[9.790149] (-) TimerEvent: {}
+[9.891013] (-) TimerEvent: {}
+[9.992008] (-) TimerEvent: {}
+[10.093510] (-) TimerEvent: {}
+[10.194778] (-) TimerEvent: {}
+[10.295758] (-) TimerEvent: {}
+[10.396960] (-) TimerEvent: {}
+[10.498164] (-) TimerEvent: {}
+[10.599484] (-) TimerEvent: {}
+[10.700646] (-) TimerEvent: {}
+[10.804815] (-) TimerEvent: {}
+[10.908111] (-) TimerEvent: {}
+[11.009900] (-) TimerEvent: {}
+[11.110980] (-) TimerEvent: {}
+[11.212435] (-) TimerEvent: {}
+[11.314621] (-) TimerEvent: {}
+[11.416441] (-) TimerEvent: {}
+[11.517822] (-) TimerEvent: {}
+[11.619033] (-) TimerEvent: {}
+[11.720777] (-) TimerEvent: {}
+[11.822856] (-) TimerEvent: {}
+[11.924688] (-) TimerEvent: {}
+[12.026277] (-) TimerEvent: {}
+[12.127649] (-) TimerEvent: {}
+[12.228873] (-) TimerEvent: {}
+[12.330563] (-) TimerEvent: {}
+[12.431967] (-) TimerEvent: {}
+[12.532958] (-) TimerEvent: {}
+[12.633980] (-) TimerEvent: {}
+[12.735000] (-) TimerEvent: {}
+[12.747344] (ignition-gazebo2) StdoutLine: {'line': b'[  0%] Built target doc\n'}
+[12.804123] (ignition-gazebo2) StdoutLine: {'line': b'[  4%] Built target ignition-gazebo_private_msgs\n'}
+[12.835661] (-) TimerEvent: {}
+[12.916984] (ignition-gazebo2) StdoutLine: {'line': b'[ 25%] Built target ignition-gazebo2\n'}
+[12.936018] (-) TimerEvent: {}
+[12.961151] (ignition-gazebo2) StdoutLine: {'line': b'[ 26%] Built target ign-gazebo-exec\n'}
+[13.003319] (ignition-gazebo2) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mAutomatic MOC for target ignition-gazebo2-gui\x1b[0m\n'}
+[13.036184] (-) TimerEvent: {}
+[13.038824] (ignition-gazebo2) StdoutLine: {'line': b'[ 27%] Built target ignition-gazebo2-gui_autogen\n'}
+[13.136579] (-) TimerEvent: {}
+[13.151817] (ignition-gazebo2) StdoutLine: {'line': b'[ 37%] Built target ignition-gazebo2-gui\n'}
+[13.231509] (ignition-gazebo2) StdoutLine: {'line': b'[ 38%] Built target ignition-gazebo2-ign\n'}
+[13.236691] (-) TimerEvent: {}
+[13.310378] (ignition-gazebo2) StdoutLine: {'line': b'[ 40%] Built target ign-gazebo-gui\n'}
+[13.337309] (-) TimerEvent: {}
+[13.357485] (ignition-gazebo2) StdoutLine: {'line': b'[ 42%] Built target ign-gazebo-server\n'}
+[13.413839] (ignition-gazebo2) StdoutLine: {'line': b'[ 45%] Built target ignition-gazebo2-rendering\n'}
+[13.439636] (-) TimerEvent: {}
+[13.492032] (ignition-gazebo2) StdoutLine: {'line': b'[ 50%] Built target EntityTree\n'}
+[13.540212] (-) TimerEvent: {}
+[13.578552] (ignition-gazebo2) StdoutLine: {'line': b'[ 55%] Built target GzScene3D\n'}
+[13.643372] (-) TimerEvent: {}
+[13.643928] (ignition-gazebo2) StdoutLine: {'line': b'[ 60%] Built target TransformControl\n'}
+[13.708502] (ignition-gazebo2) StdoutLine: {'line': b'[ 62%] Built target ignition-gazebo2-air-pressure-system\n'}
+[13.743802] (-) TimerEvent: {}
+[13.765841] (ignition-gazebo2) StdoutLine: {'line': b'[ 64%] Built target ignition-gazebo2-altimeter-system\n'}
+[13.807840] (ignition-gazebo2) StdoutLine: {'line': b'[ 65%] Built target ignition-gazebo2-apply-joint-force-system\n'}
+[13.844300] (-) TimerEvent: {}
+[13.877121] (ignition-gazebo2) StdoutLine: {'line': b'[ 67%] Built target ignition-gazebo2-linearbatteryplugin-system\n'}
+[13.935785] (ignition-gazebo2) StdoutLine: {'line': b'[ 69%] Built target ignition-gazebo2-contact-system\n'}
+[13.944472] (-) TimerEvent: {}
+[14.006005] (ignition-gazebo2) StdoutLine: {'line': b'[ 71%] Built target ignition-gazebo2-diff-drive-system\n'}
+[14.044677] (-) TimerEvent: {}
+[14.076974] (ignition-gazebo2) StdoutLine: {'line': b'[ 73%] Built target ignition-gazebo2-imu-system\n'}
+[14.142918] (ignition-gazebo2) StdoutLine: {'line': b'[ 75%] Built target ignition-gazebo2-joint-controller-system\n'}
+[14.145056] (-) TimerEvent: {}
+[14.205602] (ignition-gazebo2) StdoutLine: {'line': b'[ 76%] Built target ignition-gazebo2-joint-state-publisher-system\n'}
+[14.246842] (-) TimerEvent: {}
+[14.259324] (ignition-gazebo2) StdoutLine: {'line': b'[ 78%] Built target ignition-gazebo2-lift-drag-system\n'}
+[14.316399] (ignition-gazebo2) StdoutLine: {'line': b'[ 80%] Built target ignition-gazebo2-log-system\n'}
+[14.347327] (-) TimerEvent: {}
+[14.382299] (ignition-gazebo2) StdoutLine: {'line': b'[ 82%] Built target ignition-gazebo2-logical-camera-system\n'}
+[14.447950] (-) TimerEvent: {}
+[14.449990] (ignition-gazebo2) StdoutLine: {'line': b'[ 83%] Built target ignition-gazebo2-magnetometer-system\n'}
+[14.514138] (ignition-gazebo2) StdoutLine: {'line': b'[ 85%] Built target ignition-gazebo2-multicopter-motor-model-system\n'}
+[14.548120] (-) TimerEvent: {}
+[14.593914] (ignition-gazebo2) StdoutLine: {'line': b'[ 87%] Built target ignition-gazebo2-physics-system\n'}
+[14.641392] (ignition-gazebo2) StdoutLine: {'line': b'[ 88%] Built target ignition-gazebo2-pose-publisher-system\n'}
+[14.648468] (-) TimerEvent: {}
+[14.696775] (ignition-gazebo2) StdoutLine: {'line': b'[ 90%] Built target ignition-gazebo2-scene-broadcaster-system\n'}
+[14.748731] (-) TimerEvent: {}
+[14.766279] (ignition-gazebo2) StdoutLine: {'line': b'[ 91%] Built target ignition-gazebo2-sensors-system\n'}
+[14.838828] (ignition-gazebo2) StdoutLine: {'line': b'[ 93%] Built target ignition-gazebo2-touchplugin-system\n'}
+[14.849178] (-) TimerEvent: {}
+[14.906003] (ignition-gazebo2) StdoutLine: {'line': b'[ 95%] Built target ignition-gazebo2-user-commands-system\n'}
+[14.949877] (-) TimerEvent: {}
+[14.964834] (ignition-gazebo2) StdoutLine: {'line': b'[ 96%] Built target ignition-gazebo2-wind-effects-system\n'}
+[15.009047] (ignition-gazebo2) StdoutLine: {'line': b'[ 98%] Built target gtest\n'}
+[15.043213] (ignition-gazebo2) StdoutLine: {'line': b'[100%] Built target gtest_main\n'}
+[15.050091] (-) TimerEvent: {}
+[15.092849] (ignition-gazebo2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[15.112746] (ignition-gazebo2) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[15.113569] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-all/ignition-gazebo2-all-config.cmake\n'}
+[15.113943] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-all/ignition-gazebo2-all-config-version.cmake\n'}
+[15.114302] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-all/ignition-gazebo2-all-targets.cmake\n'}
+[15.119728] (ignition-gazebo2) StdoutLine: {'line': b'-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/ignition-gazebo2.tag.xml\n'}
+[15.121135] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/ign/detail/Export.hh\n'}
+[15.121740] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/ign/Export.hh\n'}
+[15.122241] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so.2.6.1\n'}
+[15.123021] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so.2\n'}
+[15.123514] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so\n'}
+[15.124067] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-config.cmake\n'}
+[15.124635] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-config-version.cmake\n'}
+[15.125247] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-targets.cmake\n'}
+[15.125749] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-targets-relwithdebinfo.cmake\n'}
+[15.126176] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-ign.pc\n'}
+[15.126520] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/Export.hh\n'}
+[15.127008] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Export.hh\n'}
+[15.127444] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so.2.6.1\n'}
+[15.128008] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so.2\n'}
+[15.128509] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so\n'}
+[15.129054] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-config.cmake\n'}
+[15.129579] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-config-version.cmake\n'}
+[15.129889] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-targets.cmake\n'}
+[15.130315] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-targets-relwithdebinfo.cmake\n'}
+[15.130643] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2.pc\n'}
+[15.131075] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-2.6.1\n'}
+[15.131416] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo\n'}
+[15.131788] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-server-2.6.1\n'}
+[15.132159] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-server\n'}
+[15.132500] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-gui-2.6.1\n'}
+[15.133011] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-gui\n'}
+[15.133583] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/detail/Export.hh\n'}
+[15.134094] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/Export.hh\n'}
+[15.134444] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2.6.1\n'}
+[15.134945] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2\n'}
+[15.135354] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so\n'}
+[15.135867] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-config.cmake\n'}
+[15.136500] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-config-version.cmake\n'}
+[15.136964] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-targets.cmake\n'}
+[15.137327] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-targets-relwithdebinfo.cmake\n'}
+[15.137533] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-rendering.pc\n'}
+[15.137922] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2.6.1\n'}
+[15.138120] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2\n'}
+[15.138405] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so\n'}
+[15.138597] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libEntityTree.so\n'}
+[15.139032] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libGzScene3D.so\n'}
+[15.139419] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libTransformControl.so\n'}
+[15.139643] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/air-pressure-system/detail/Export.hh\n'}
+[15.140022] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/air-pressure-system/Export.hh\n'}
+[15.140450] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so.2.6.1\n'}
+[15.140671] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so.2\n'}
+[15.140945] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so\n'}
+[15.141232] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-config.cmake\n'}
+[15.141432] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-config-version.cmake\n'}
+[15.141749] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-targets.cmake\n'}
+[15.142108] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-targets-relwithdebinfo.cmake\n'}
+[15.142338] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-air-pressure-system.pc\n'}
+[15.142668] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.6.1\n'}
+[15.142974] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2\n'}
+[15.143340] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so\n'}
+[15.143704] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-air-pressure-system.so\n'}
+[15.143954] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/altimeter-system/detail/Export.hh\n'}
+[15.144308] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/altimeter-system/Export.hh\n'}
+[15.144533] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so.2.6.1\n'}
+[15.144808] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so.2\n'}
+[15.145028] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so\n'}
+[15.145378] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-config.cmake\n'}
+[15.145662] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-config-version.cmake\n'}
+[15.145932] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-targets.cmake\n'}
+[15.146274] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-targets-relwithdebinfo.cmake\n'}
+[15.146590] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-altimeter-system.pc\n'}
+[15.146829] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so.2.6.1\n'}
+[15.146962] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so.2\n'}
+[15.147086] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so\n'}
+[15.147422] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-altimeter-system.so\n'}
+[15.147555] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/apply-joint-force-system/detail/Export.hh\n'}
+[15.147754] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/apply-joint-force-system/Export.hh\n'}
+[15.147942] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so.2.6.1\n'}
+[15.148147] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so.2\n'}
+[15.148387] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so\n'}
+[15.148519] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-config.cmake\n'}
+[15.148820] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-config-version.cmake\n'}
+[15.148956] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-targets.cmake\n'}
+[15.149236] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-targets-relwithdebinfo.cmake\n'}
+[15.149471] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-apply-joint-force-system.pc\n'}
+[15.149769] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so.2.6.1\n'}
+[15.149908] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so.2\n'}
+[15.150030] (-) TimerEvent: {}
+[15.150317] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so\n'}
+[15.150482] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-apply-joint-force-system.so\n'}
+[15.150619] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/linearbatteryplugin-system/detail/Export.hh\n'}
+[15.150861] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/linearbatteryplugin-system/Export.hh\n'}
+[15.150989] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so.2.6.1\n'}
+[15.151305] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so.2\n'}
+[15.151453] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so\n'}
+[15.151774] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-config.cmake\n'}
+[15.151948] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-config-version.cmake\n'}
+[15.152239] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-targets.cmake\n'}
+[15.152480] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-targets-relwithdebinfo.cmake\n'}
+[15.152779] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-linearbatteryplugin-system.pc\n'}
+[15.152914] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so.2.6.1\n'}
+[15.153038] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so.2\n'}
+[15.153345] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so\n'}
+[15.153480] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-linearbatteryplugin-system.so\n'}
+[15.153602] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/contact-system/detail/Export.hh\n'}
+[15.153833] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/contact-system/Export.hh\n'}
+[15.153964] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so.2.6.1\n'}
+[15.154202] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so.2\n'}
+[15.154428] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so\n'}
+[15.154626] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-config.cmake\n'}
+[15.154909] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-config-version.cmake\n'}
+[15.155051] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-targets.cmake\n'}
+[15.155333] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-targets-relwithdebinfo.cmake\n'}
+[15.155560] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-contact-system.pc\n'}
+[15.155845] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so.2.6.1\n'}
+[15.155993] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so.2\n'}
+[15.156119] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so\n'}
+[15.156497] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-contact-system.so\n'}
+[15.156629] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/diff-drive-system/detail/Export.hh\n'}
+[15.156726] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/diff-drive-system/Export.hh\n'}
+[15.156821] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so.2.6.1\n'}
+[15.157014] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so.2\n'}
+[15.157124] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so\n'}
+[15.157221] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-config.cmake\n'}
+[15.157415] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-config-version.cmake\n'}
+[15.157634] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-targets.cmake\n'}
+[15.157748] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-targets-relwithdebinfo.cmake\n'}
+[15.157856] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-diff-drive-system.pc\n'}
+[15.158117] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.6.1\n'}
+[15.158238] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2\n'}
+[15.158332] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so\n'}
+[15.158567] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-diff-drive-system.so\n'}
+[15.158681] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/imu-system/detail/Export.hh\n'}
+[15.158870] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/imu-system/Export.hh\n'}
+[15.159068] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so.2.6.1\n'}
+[15.159257] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so.2\n'}
+[15.159365] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so\n'}
+[15.159460] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-config.cmake\n'}
+[15.159555] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-config-version.cmake\n'}
+[15.159917] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-targets.cmake\n'}
+[15.160030] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-targets-relwithdebinfo.cmake\n'}
+[15.160128] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-imu-system.pc\n'}
+[15.160221] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.6.1\n'}
+[15.160413] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2\n'}
+[15.160520] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so\n'}
+[15.160616] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-imu-system.so\n'}
+[15.160802] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-controller-system/detail/Export.hh\n'}
+[15.161002] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-controller-system/Export.hh\n'}
+[15.161107] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so.2.6.1\n'}
+[15.161299] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so.2\n'}
+[15.161490] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so\n'}
+[15.161589] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-config.cmake\n'}
+[15.161839] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-config-version.cmake\n'}
+[15.161954] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-targets.cmake\n'}
+[15.162163] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-targets-relwithdebinfo.cmake\n'}
+[15.162422] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-joint-controller-system.pc\n'}
+[15.162536] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so.2.6.1\n'}
+[15.162659] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so.2\n'}
+[15.162754] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so\n'}
+[15.163041] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-joint-controller-system.so\n'}
+[15.163153] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-state-publisher-system/detail/Export.hh\n'}
+[15.163249] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-state-publisher-system/Export.hh\n'}
+[15.163344] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so.2.6.1\n'}
+[15.163536] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so.2\n'}
+[15.163636] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so\n'}
+[15.163747] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-config.cmake\n'}
+[15.163963] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-config-version.cmake\n'}
+[15.164070] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-targets.cmake\n'}
+[15.164166] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-targets-relwithdebinfo.cmake\n'}
+[15.164364] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-joint-state-publisher-system.pc\n'}
+[15.164468] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so.2.6.1\n'}
+[15.164564] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so.2\n'}
+[15.164659] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so\n'}
+[15.164753] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-joint-state-publisher-system.so\n'}
+[15.164846] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/lift-drag-system/detail/Export.hh\n'}
+[15.164940] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/lift-drag-system/Export.hh\n'}
+[15.165168] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so.2.6.1\n'}
+[15.165271] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so.2\n'}
+[15.165365] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so\n'}
+[15.165464] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-config.cmake\n'}
+[15.165559] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-config-version.cmake\n'}
+[15.165654] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-targets.cmake\n'}
+[15.165748] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-targets-relwithdebinfo.cmake\n'}
+[15.165959] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-lift-drag-system.pc\n'}
+[15.166131] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so.2.6.1\n'}
+[15.166231] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so.2\n'}
+[15.166325] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so\n'}
+[15.166503] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-lift-drag-system.so\n'}
+[15.166628] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/log-system/detail/Export.hh\n'}
+[15.166816] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/log-system/Export.hh\n'}
+[15.166989] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so.2.6.1\n'}
+[15.167087] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so.2\n'}
+[15.167181] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so\n'}
+[15.167274] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-config.cmake\n'}
+[15.167367] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-config-version.cmake\n'}
+[15.167461] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-targets.cmake\n'}
+[15.167570] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-targets-relwithdebinfo.cmake\n'}
+[15.167674] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-log-system.pc\n'}
+[15.168232] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.6.1\n'}
+[15.168360] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2\n'}
+[15.168457] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so\n'}
+[15.169400] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-log-system.so\n'}
+[15.170242] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/logical-camera-system/detail/Export.hh\n'}
+[15.170457] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/logical-camera-system/Export.hh\n'}
+[15.171294] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so.2.6.1\n'}
+[15.171489] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so.2\n'}
+[15.171592] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so\n'}
+[15.172142] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-config.cmake\n'}
+[15.172341] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-config-version.cmake\n'}
+[15.172914] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-targets.cmake\n'}
+[15.173173] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-targets-relwithdebinfo.cmake\n'}
+[15.173353] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-logical-camera-system.pc\n'}
+[15.174590] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so.2.6.1\n'}
+[15.174731] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so.2\n'}
+[15.174829] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so\n'}
+[15.175839] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-logical-camera-system.so\n'}
+[15.176740] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/magnetometer-system/detail/Export.hh\n'}
+[15.177559] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/magnetometer-system/Export.hh\n'}
+[15.178283] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so.2.6.1\n'}
+[15.178482] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so.2\n'}
+[15.178596] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so\n'}
+[15.179882] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-config.cmake\n'}
+[15.180028] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-config-version.cmake\n'}
+[15.180304] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-targets.cmake\n'}
+[15.180522] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-targets-relwithdebinfo.cmake\n'}
+[15.180724] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-magnetometer-system.pc\n'}
+[15.182656] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.6.1\n'}
+[15.182872] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2\n'}
+[15.182992] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so\n'}
+[15.184184] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-magnetometer-system.so\n'}
+[15.184919] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/multicopter-motor-model-system/detail/Export.hh\n'}
+[15.185224] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/multicopter-motor-model-system/Export.hh\n'}
+[15.186086] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so.2.6.1\n'}
+[15.186233] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so.2\n'}
+[15.186372] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so\n'}
+[15.187074] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-config.cmake\n'}
+[15.187271] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-config-version.cmake\n'}
+[15.187680] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-targets.cmake\n'}
+[15.187992] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-targets-relwithdebinfo.cmake\n'}
+[15.188258] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-multicopter-motor-model-system.pc\n'}
+[15.189399] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so.2.6.1\n'}
+[15.189693] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so.2\n'}
+[15.189852] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so\n'}
+[15.190619] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-multicopter-motor-model-system.so\n'}
+[15.191447] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/physics-system/detail/Export.hh\n'}
+[15.191702] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/physics-system/Export.hh\n'}
+[15.192472] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so.2.6.1\n'}
+[15.192737] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so.2\n'}
+[15.192889] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so\n'}
+[15.193276] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-config.cmake\n'}
+[15.193553] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-config-version.cmake\n'}
+[15.193801] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-targets.cmake\n'}
+[15.194054] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-targets-relwithdebinfo.cmake\n'}
+[15.194314] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-physics-system.pc\n'}
+[15.195362] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.6.1\n'}
+[15.195637] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2\n'}
+[15.195795] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so\n'}
+[15.196529] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-physics-system.so\n'}
+[15.197220] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/pose-publisher-system/detail/Export.hh\n'}
+[15.197549] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/pose-publisher-system/Export.hh\n'}
+[15.197923] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so.2.6.1\n'}
+[15.198127] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so.2\n'}
+[15.198302] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so\n'}
+[15.198629] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-config.cmake\n'}
+[15.198997] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-config-version.cmake\n'}
+[15.199327] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-targets.cmake\n'}
+[15.199532] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-targets-relwithdebinfo.cmake\n'}
+[15.199717] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-pose-publisher-system.pc\n'}
+[15.200144] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.6.1\n'}
+[15.200335] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2\n'}
+[15.200511] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so\n'}
+[15.200804] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-pose-publisher-system.so\n'}
+[15.201377] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/scene-broadcaster-system/detail/Export.hh\n'}
+[15.201709] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/scene-broadcaster-system/Export.hh\n'}
+[15.202094] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so.2.6.1\n'}
+[15.202300] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so.2\n'}
+[15.202475] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so\n'}
+[15.202791] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-config.cmake\n'}
+[15.202989] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-config-version.cmake\n'}
+[15.203387] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-targets.cmake\n'}
+[15.203681] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-targets-relwithdebinfo.cmake\n'}
+[15.203864] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-scene-broadcaster-system.pc\n'}
+[15.204343] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.6.1\n'}
+[15.204579] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2\n'}
+[15.204761] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so\n'}
+[15.205084] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-scene-broadcaster-system.so\n'}
+[15.205669] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/sensors-system/detail/Export.hh\n'}
+[15.206000] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/sensors-system/Export.hh\n'}
+[15.206365] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so.2.6.1\n'}
+[15.206572] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so.2\n'}
+[15.206786] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so\n'}
+[15.207094] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-config.cmake\n'}
+[15.207443] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-config-version.cmake\n'}
+[15.207613] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-targets.cmake\n'}
+[15.207762] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-targets-relwithdebinfo.cmake\n'}
+[15.208102] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-sensors-system.pc\n'}
+[15.208272] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.6.1\n'}
+[15.208446] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2\n'}
+[15.208736] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so\n'}
+[15.209078] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-sensors-system.so\n'}
+[15.209247] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/touchplugin-system/detail/Export.hh\n'}
+[15.209523] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/touchplugin-system/Export.hh\n'}
+[15.209680] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so.2.6.1\n'}
+[15.209992] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so.2\n'}
+[15.210295] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so\n'}
+[15.210567] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-config.cmake\n'}
+[15.210733] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-config-version.cmake\n'}
+[15.211022] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-targets.cmake\n'}
+[15.211181] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-targets-relwithdebinfo.cmake\n'}
+[15.211449] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-touchplugin-system.pc\n'}
+[15.211604] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so.2.6.1\n'}
+[15.212052] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so.2\n'}
+[15.212217] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so\n'}
+[15.212512] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-touchplugin-system.so\n'}
+[15.212685] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/user-commands-system/detail/Export.hh\n'}
+[15.212970] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/user-commands-system/Export.hh\n'}
+[15.213283] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so.2.6.1\n'}
+[15.213549] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so.2\n'}
+[15.213703] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so\n'}
+[15.214101] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-config.cmake\n'}
+[15.214343] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-config-version.cmake\n'}
+[15.214544] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-targets.cmake\n'}
+[15.214722] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-targets-relwithdebinfo.cmake\n'}
+[15.215021] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-user-commands-system.pc\n'}
+[15.215175] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.6.1\n'}
+[15.215480] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2\n'}
+[15.215640] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so\n'}
+[15.215997] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-user-commands-system.so\n'}
+[15.216431] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/wind-effects-system/detail/Export.hh\n'}
+[15.216594] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/wind-effects-system/Export.hh\n'}
+[15.216732] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so.2.6.1\n'}
+[15.216964] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so.2\n'}
+[15.217081] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so\n'}
+[15.217187] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-config.cmake\n'}
+[15.217396] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-config-version.cmake\n'}
+[15.217510] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-targets.cmake\n'}
+[15.217724] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-targets-relwithdebinfo.cmake\n'}
+[15.217939] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-wind-effects-system.pc\n'}
+[15.218048] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so.2.6.1\n'}
+[15.218162] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so.2\n'}
+[15.218267] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so\n'}
+[15.219338] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-wind-effects-system.so\n'}
+[15.220209] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ruby/ignition/cmdgazebo2.rb\n'}
+[15.220792] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/gazebo2.yaml\n'}
+[15.220913] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Actor.hh\n'}
+[15.221125] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/AirPressureSensor.hh\n'}
+[15.221240] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Altimeter.hh\n'}
+[15.221494] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/AngularAcceleration.hh\n'}
+[15.221610] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/AngularVelocity.hh\n'}
+[15.221804] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/BatterySoC.hh\n'}
+[15.221944] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Camera.hh\n'}
+[15.222177] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/CanonicalLink.hh\n'}
+[15.222365] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ChildLinkName.hh\n'}
+[15.222657] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Collision.hh\n'}
+[15.222776] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Component.hh\n'}
+[15.222902] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ContactSensor.hh\n'}
+[15.223133] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ContactSensorData.hh\n'}
+[15.223340] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/DepthCamera.hh\n'}
+[15.223452] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ExternalWorldWrenchCmd.hh\n'}
+[15.223557] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Factory.hh\n'}
+[15.223669] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Geometry.hh\n'}
+[15.223806] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/GpuLidar.hh\n'}
+[15.223927] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Gravity.hh\n'}
+[15.224032] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Imu.hh\n'}
+[15.224433] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Inertial.hh\n'}
+[15.225072] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Joint.hh\n'}
+[15.225188] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointAxis.hh\n'}
+[15.225293] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointForce.hh\n'}
+[15.225400] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointForceCmd.hh\n'}
+[15.225504] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointPosition.hh\n'}
+[15.225608] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointType.hh\n'}
+[15.225712] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointVelocity.hh\n'}
+[15.225817] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointVelocityCmd.hh\n'}
+[15.225922] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Level.hh\n'}
+[15.226025] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LevelBuffer.hh\n'}
+[15.226130] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LevelEntityNames.hh\n'}
+[15.226234] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Lidar.hh\n'}
+[15.226338] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Light.hh\n'}
+[15.226447] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LinearAcceleration.hh\n'}
+[15.226540] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LinearVelocity.hh\n'}
+[15.226646] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LinearVelocitySeed.hh\n'}
+[15.226753] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Link.hh\n'}
+[15.226850] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LogicalCamera.hh\n'}
+[15.226946] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/MagneticField.hh\n'}
+[15.227041] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Magnetometer.hh\n'}
+[15.227145] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Material.hh\n'}
+[15.227240] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Model.hh\n'}
+[15.227336] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Name.hh\n'}
+[15.227430] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ParentEntity.hh\n'}
+[15.227524] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ParentLinkName.hh\n'}
+[15.227616] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Performer.hh\n'}
+[15.227709] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/PerformerAffinity.hh\n'}
+[15.227828] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/PerformerLevels.hh\n'}
+[15.227926] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Pose.hh\n'}
+[15.228020] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/PoseCmd.hh\n'}
+[15.228115] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/RgbdCamera.hh\n'}
+[15.228209] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Scene.hh\n'}
+[15.228305] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Sensor.hh\n'}
+[15.228399] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Serialization.hh\n'}
+[15.228493] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Static.hh\n'}
+[15.228585] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ThreadPitch.hh\n'}
+[15.228679] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Visual.hh\n'}
+[15.228779] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Wind.hh\n'}
+[15.228876] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/WindMode.hh\n'}
+[15.228970] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/World.hh\n'}
+[15.229064] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/ComponentStorageBase.hh\n'}
+[15.229157] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/EntityComponentManager.hh\n'}
+[15.229250] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/View.hh\n'}
+[15.229343] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/GuiRunner.hh\n'}
+[15.229436] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/GuiSystem.hh\n'}
+[15.229529] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/TmpIface.hh\n'}
+[15.229636] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/RenderUtil.hh\n'}
+[15.229733] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/SceneManager.hh\n'}
+[15.229827] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Conversions.hh\n'}
+[15.229918] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Entity.hh\n'}
+[15.230011] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/EntityComponentManager.hh\n'}
+[15.230112] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/EventManager.hh\n'}
+[15.230206] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Events.hh\n'}
+[15.230522] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Link.hh\n'}
+[15.230937] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Model.hh\n'}
+[15.231436] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/SdfEntityCreator.hh\n'}
+[15.232594] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Server.hh\n'}
+[15.233346] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/ServerConfig.hh\n'}
+[15.239185] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/System.hh\n'}
+[15.240249] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/SystemLoader.hh\n'}
+[15.240667] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/SystemPluginPtr.hh\n'}
+[15.245086] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Types.hh\n'}
+[15.245512] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Util.hh\n'}
+[15.246219] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/../gazebo.hh\n'}
+[15.249094] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/config.hh\n'}
+[15.251886] (-) TimerEvent: {}
+[15.252088] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components.hh\n'}
+[15.255260] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/detail/Export.hh\n'}
+[15.255657] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/Export.hh\n'}
+[15.258966] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2.6.1\n'}
+[15.259994] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2\n'}
+[15.260933] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so\n'}
+[15.261258] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-config.cmake\n'}
+[15.261902] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-config-version.cmake\n'}
+[15.262641] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-targets.cmake\n'}
+[15.263183] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-targets-relwithdebinfo.cmake\n'}
+[15.271257] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-gui.pc\n'}
+[15.273036] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2.6.1\n'}
+[15.273865] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2\n'}
+[15.274360] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so\n'}
+[15.280473] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/gui/gui.config\n'}
+[15.287328] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/actor.sdf\n'}
+[15.294310] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/apply_joint_force.sdf\n'}
+[15.295533] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/camera_sensor.sdf\n'}
+[15.304554] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/contact_sensor.sdf\n'}
+[15.306778] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/debug_shapes.sdf\n'}
+[15.309199] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/depth_camera_sensor.sdf\n'}
+[15.309600] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/diff_drive.sdf\n'}
+[15.309913] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/diff_drive_skid.sdf\n'}
+[15.310212] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/empty.sdf\n'}
+[15.310510] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/fuel.sdf\n'}
+[15.310827] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/fuel_textured_mesh.sdf\n'}
+[15.311128] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/gpu_lidar_sensor.sdf\n'}
+[15.311416] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/joint_controller.sdf\n'}
+[15.311698] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/levels.sdf\n'}
+[15.312044] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/levels_no_performers.sdf\n'}
+[15.312344] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/lift_drag.sdf\n'}
+[15.312631] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/lights.sdf\n'}
+[15.312919] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/linear_battery_demo.sdf\n'}
+[15.313207] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_playback.sdf\n'}
+[15.313498] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_record_dbl_pendulum.sdf\n'}
+[15.313784] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_record_keyboard.sdf\n'}
+[15.314070] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_record_shapes.sdf\n'}
+[15.314357] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/logical_camera_sensor.sdf\n'}
+[15.314660] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/plane_propeller_demo.sdf\n'}
+[15.314970] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/pose_publisher.sdf\n'}
+[15.315258] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/quadcopter.sdf\n'}
+[15.315544] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/rolling_shapes.sdf\n'}
+[15.315886] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/sensors.sdf\n'}
+[15.316186] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/sensors_demo.sdf\n'}
+[15.316478] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/shapes.sdf\n'}
+[15.316693] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/touch_plugin.sdf\n'}
+[15.316909] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/track_drive.sdf\n'}
+[15.317123] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/tunnel.sdf\n'}
+[15.317346] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/wind.sdf\n'}
+[15.317562] (ignition-gazebo2) StdoutLine: {'line': b'-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/world_joint.sdf\n'}
+[15.317777] (ignition-gazebo2) CommandEnded: {'returncode': 0}
+[15.318486] (ignition-gazebo2) JobEnded: {'identifier': 'ignition-gazebo2', 'rc': 0}
+[15.319108] (-) EventReactorShutdown: {}

@@ -1,0 +1,1031 @@
+Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake /home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo -DBUILD_TESTING=false -DCMAKE_INSTALL_PREFIX=/home/mingfei/Documents/GSoC/ws_blueprint/src/install
+-- The C compiler identification is GNU 8.3.0
+-- The CXX compiler identification is GNU 8.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ignition-gazebo2 version 2.6.1
+-- Operating system is Linux
+-- Found CPack generators: DEB
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Searching for dependencies of ignition-math6
+-- Looking for sdformat8 - found
+
+-- Looking for ignition-plugin1 -- found version 1.0.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [loader]
+-- Looking for ignition-plugin1-loader -- found version 1.0.0
+-- Searching for dependencies of ignition-plugin1-loader
+-- Searching for <ignition-plugin1> component [register]
+-- Looking for ignition-plugin1-register -- found version 1.0.0
+-- Searching for dependencies of ignition-plugin1-register
+-- Looking for ignition-plugin1 - found
+
+-- Looking for ignition-transport7 -- found version 7.0.0
+-- Searching for dependencies of ignition-transport7
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.0.0", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.2.5
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.31.1
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs4 -- found version 4.5.0
+-- Searching for dependencies of ignition-msgs4
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "3") 
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Searching for <ignition-transport7> component [log]
+-- Looking for ignition-transport7-log -- found version 7.0.0
+-- Searching for dependencies of ignition-transport7-log
+-- Looking for ignition-transport7 - found
+
+-- Looking for ignition-msgs4 -- found version 4.5.0
+-- Looking for ignition-msgs4 - found
+
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [profiler]
+-- Looking for ignition-common3-profiler -- found version 3.1.0
+-- Searching for dependencies of ignition-common3-profiler
+-- Searching for <ignition-common3> component [events]
+-- Looking for ignition-common3-events -- found version 3.1.0
+-- Searching for dependencies of ignition-common3-events
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Looking for ignition-common3 - found
+
+-- Looking for ignition-fuel_tools3 -- found version 3.2.0
+-- Searching for dependencies of ignition-fuel_tools3
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.0.0
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0") 
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'yaml-0.1'
+--   Found yaml-0.1, version 0.1.7
+-- Found YAML: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.1.2
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Looking for ignition-fuel_tools3 - found
+
+-- Looking for ignition-gui2 -- found version 2.0.0
+-- Searching for dependencies of ignition-gui2
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "3") 
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Looking for ignition-plugin1 -- found version 1.0.0
+-- Looking for ignition-transport7 -- found version 7.0.0
+-- Looking for ignition-rendering2 -- found version 2.0.0
+-- Searching for dependencies of ignition-rendering2
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.1.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Searching for <ignition-common3> component [events]
+-- Looking for ignition-plugin1 -- found version 1.0.0
+-- Searching for dependencies of ignition-plugin1
+-- Searching for <ignition-plugin1> component [all]
+-- Looking for all libraries of ignition-plugin1 -- found version 1.0.0
+-- Searching for <ignition-rendering2> component [ogre]
+-- Looking for ignition-rendering2-ogre -- found version 2.0.0
+-- Searching for dependencies of ignition-rendering2-ogre
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Looking for ignition-msgs4 -- found version 4.5.0
+-- Looking for ignition-gui2 - found
+
+-- Looking for Qt5 - found
+
+-- Looking for ignition-physics1 -- found version 1.3.1
+-- Searching for dependencies of ignition-physics1
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Searching for dependencies of ignition-math6
+-- Searching for <ignition-math6> component [eigen3]
+-- Looking for ignition-math6-eigen3 -- found version 6.4.0
+-- Searching for dependencies of ignition-math6-eigen3
+-- Looking for ignition-plugin1 -- found version 1.0.0
+-- Searching for <ignition-physics1> component [mesh]
+-- Looking for ignition-physics1-mesh -- found version 1.3.1
+-- Searching for dependencies of ignition-physics1-mesh
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Searching for <ignition-physics1> component [sdf]
+-- Looking for ignition-physics1-sdf -- found version 1.3.1
+-- Searching for dependencies of ignition-physics1-sdf
+-- Searching for <ignition-physics1> component [dartsim]
+-- Looking for ignition-physics1-dartsim -- found version 1.3.1
+-- Searching for dependencies of ignition-physics1-dartsim
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "4.1.0") 
+-- Found DART: /usr/include (Required is at least version "6.10.0") found components:  collision-ode utils utils-urdf dart 
+-- Looking for ignition-physics1 -- found version 1.3.1
+-- Searching for <ignition-physics1> component [dartsim-plugin]
+-- Looking for ignition-physics1-dartsim-plugin -- found version 1.3.1
+-- Searching for dependencies of ignition-physics1-dartsim-plugin
+-- Looking for ignition-physics1 -- found version 1.3.1
+-- Looking for ignition-physics1 - found
+
+-- Looking for ignition-sensors2 -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "3") 
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Looking for ignition-common3 -- found version 3.1.0
+-- Looking for ignition-transport7 -- found version 7.0.0
+-- Looking for ignition-rendering2 -- found version 2.0.0
+-- Looking for ignition-msgs4 -- found version 4.5.0
+-- Looking for ignition-plugin1 -- found version 1.0.0
+-- Searching for <ignition-sensors2> component [rendering]
+-- Looking for ignition-sensors2-rendering -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-rendering
+-- Searching for <ignition-sensors2> component [air_pressure]
+-- Looking for ignition-sensors2-air_pressure -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-air_pressure
+-- Searching for <ignition-sensors2> component [altimeter]
+-- Looking for ignition-sensors2-altimeter -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-altimeter
+-- Searching for <ignition-sensors2> component [camera]
+-- Looking for ignition-sensors2-camera -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-camera
+-- Searching for <ignition-sensors2> component [gpu_lidar]
+-- Looking for ignition-sensors2-gpu_lidar -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-gpu_lidar
+-- Searching for <ignition-sensors2> component [imu]
+-- Looking for ignition-sensors2-imu -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-imu
+-- Searching for <ignition-sensors2> component [logical_camera]
+-- Looking for ignition-sensors2-logical_camera -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-logical_camera
+-- Searching for <ignition-sensors2> component [magnetometer]
+-- Looking for ignition-sensors2-magnetometer -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-magnetometer
+-- Searching for <ignition-sensors2> component [depth_camera]
+-- Looking for ignition-sensors2-depth_camera -- found version 2.4.0
+-- Searching for dependencies of ignition-sensors2-depth_camera
+-- Looking for ignition-sensors2 - found
+
+-- Looking for ignition-rendering2 -- found version 2.0.0
+-- Looking for ignition-rendering2 - found
+
+-- Looking for gflags - found
+
+-- Looking for ignition-math6 -- found version 6.4.0
+-- Looking for ignition-math6 - found
+
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread (found suitable version "3.0.0", minimum required is "3") 
+-- Looking for Protobuf - found
+
+-- 
+-- Searching for host SSE information
+-- SSE2 found
+-- SSE3 found
+-- SSE4.1 found
+-- SSE4.2 found
+-- Configuring library: ignition-gazebo2-rendering
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring library: ignition-gazebo2-air-pressure-system
+-- Configuring library: ignition-gazebo2-altimeter-system
+-- Configuring library: ignition-gazebo2-apply-joint-force-system
+-- Configuring library: ignition-gazebo2-linearbatteryplugin-system
+-- Configuring library: ignition-gazebo2-contact-system
+-- Configuring library: ignition-gazebo2-diff-drive-system
+-- Configuring library: ignition-gazebo2-imu-system
+-- Configuring library: ignition-gazebo2-joint-controller-system
+-- Configuring library: ignition-gazebo2-joint-state-publisher-system
+-- Configuring library: ignition-gazebo2-lift-drag-system
+-- Configuring library: ignition-gazebo2-log-system
+-- Configuring library: ignition-gazebo2-logical-camera-system
+-- Configuring library: ignition-gazebo2-magnetometer-system
+-- Configuring library: ignition-gazebo2-multicopter-motor-model-system
+-- Configuring library: ignition-gazebo2-physics-system
+-- Configuring library: ignition-gazebo2-pose-publisher-system
+-- Configuring library: ignition-gazebo2-scene-broadcaster-system
+-- Configuring library: ignition-gazebo2-sensors-system
+-- Configuring library: ignition-gazebo2-touchplugin-system
+-- Configuring library: ignition-gazebo2-user-commands-system
+-- Configuring library: ignition-gazebo2-wind-effects-system
+-- Configuring library: ignition-gazebo2-ign
+-- Configuring library: ignition-gazebo2
+-- Testing is disabled -- skipping UNIT tests
+-- Configuring library: ignition-gazebo2-gui
+-- Looking for display capabilities
+--  + found a display available ($DISPLAY is set)
+-- Could not find glxinfo. Trying with 'gl-test.py' which may not work.If 'gl-test.py' fails to find DRI, try installng the package 'mesa-utils' for glxinfo
+--  ! valid dri display not found (no glxinfo or pyopengl)
+-- Skipping these INTEGRATION tests because a valid display was not found:
+--  depth_camera.cc
+--  gpu_lidar.cc
+--  rgbd_camera.cc
+--  sensors_system.cc
+-- Testing is disabled -- skipping INTEGRATION tests
+-- Testing is disabled -- skipping PERFORMANCE tests
+-- Testing is disabled -- skipping REGRESSION tests
+-- Adding codecheck target
+-- Build configuration successful
+-- Build type: RelWithDebInfo
+-- Install prefix: /home/mingfei/Documents/GSoC/ws_blueprint/src/install
+-- Looking for ronn to generate manpages - found
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.13") found components:  doxygen missing components:  dot
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2
+Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake /home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo -DBUILD_TESTING=false -DCMAKE_INSTALL_PREFIX=/home/mingfei/Documents/GSoC/ws_blueprint/src/install
+Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 -- -j6 -l6
+[35m[1mScanning dependencies of target ignition-gazebo_private_msgs[0m
+[35m[1mScanning dependencies of target doc[0m
+[35m[1mScanning dependencies of target gtest[0m
+[  0%] [34m[1mGenerating API documentation with Doxygen[0m
+[  1%] [34m[1mRunning C++ protocol buffer compiler on performer_affinity.proto[0m
+[  2%] [34m[1mRunning C++ protocol buffer compiler on peer_info.proto[0m
+[  3%] [34m[1mRunning C++ protocol buffer compiler on peer_control.proto[0m
+[  4%] [34m[1mRunning C++ protocol buffer compiler on simulation_step.proto[0m
+[  4%] Built target ignition-gazebo_private_msgs
+[  5%] [32mBuilding CXX object test/CMakeFiles/gtest.dir/gtest/src/gtest-all.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2[0m
+[  6%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/LevelManager.cc.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/Conversions.cc.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/EntityComponentManager.cc.o[0m
+[  8%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/EventManager.cc.o[0m
+[  9%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/Link.cc.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/Model.cc.o[0m
+[ 10%] Built target doc
+[ 11%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/SdfEntityCreator.cc.o[0m
+[ 12%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[ 12%] Built target gtest
+[ 12%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/Server.cc.o[0m
+[ 13%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/ServerConfig.cc.o[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 14%] [32mBuilding CXX object test/CMakeFiles/gtest_main.dir/gtest/src/gtest_main.cc.o[0m
+[ 15%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/ServerPrivate.cc.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/SimulationRunner.cc.o[0m
+[ 17%] [32m[1mLinking CXX static library ../lib/libgtest_main.a[0m
+[ 17%] Built target gtest_main
+[ 18%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/System.cc.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/SystemLoader.cc.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/Util.cc.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/View.cc.o[0m
+[ 21%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/msgs/peer_info.pb.cc.o[0m
+[ 22%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/msgs/peer_control.pb.cc.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/msgs/performer_affinity.pb.cc.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/msgs/simulation_step.pb.cc.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/network/NetworkConfig.cc.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/network/NetworkManager.cc.o[0m
+[ 26%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/network/NetworkManagerPrimary.cc.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/network/NetworkManagerSecondary.cc.o[0m
+[ 28%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/network/PeerInfo.cc.o[0m
+[ 29%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2.dir/network/PeerTracker.cc.o[0m
+[ 29%] [32m[1mLinking CXX shared library ../lib/libignition-gazebo2.so[0m
+[ 29%] Built target ignition-gazebo2
+[35m[1mScanning dependencies of target ignition-gazebo2-gui_autogen[0m
+[35m[1mScanning dependencies of target ign-gazebo-server[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-rendering[0m
+[35m[1mScanning dependencies of target ign-gazebo-exec[0m
+[ 30%] [34m[1mAutomatic MOC for target ignition-gazebo2-gui[0m
+[ 31%] [32mBuilding CXX object src/CMakeFiles/ign-gazebo-server.dir/server_main.cc.o[0m
+[ 32%] [32mBuilding CXX object src/CMakeFiles/ign-gazebo-exec.dir/main.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-air-pressure-system[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-altimeter-system[0m
+[ 32%] Built target ignition-gazebo2-gui_autogen
+[35m[1mScanning dependencies of target ignition-gazebo2-apply-joint-force-system[0m
+[ 33%] [32mBuilding CXX object src/systems/air_pressure/CMakeFiles/ignition-gazebo2-air-pressure-system.dir/AirPressure.cc.o[0m
+[ 34%] [32mBuilding CXX object src/systems/apply_joint_force/CMakeFiles/ignition-gazebo2-apply-joint-force-system.dir/ApplyJointForce.cc.o[0m
+[ 35%] [32mBuilding CXX object src/systems/altimeter/CMakeFiles/ignition-gazebo2-altimeter-system.dir/Altimeter.cc.o[0m
+[ 36%] [32mBuilding CXX object src/rendering/CMakeFiles/ignition-gazebo2-rendering.dir/RenderUtil.cc.o[0m
+[ 36%] [32m[1mLinking CXX executable ../bin/ign-gazebo[0m
+[ 36%] Built target ign-gazebo-exec
+[ 37%] [32mBuilding CXX object src/rendering/CMakeFiles/ignition-gazebo2-rendering.dir/SceneManager.cc.o[0m
+[ 38%] [32m[1mLinking CXX executable ../bin/ign-gazebo-server[0m
+[ 38%] Built target ign-gazebo-server
+[35m[1mScanning dependencies of target ignition-gazebo2-linearbatteryplugin-system[0m
+[ 39%] [32mBuilding CXX object src/systems/battery_plugin/CMakeFiles/ignition-gazebo2-linearbatteryplugin-system.dir/LinearBatteryPlugin.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-contact-system[0m
+[ 40%] [32mBuilding CXX object src/systems/contact/CMakeFiles/ignition-gazebo2-contact-system.dir/Contact.cc.o[0m
+[ 41%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-air-pressure-system.so[0m
+[ 41%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-apply-joint-force-system.so[0m
+[ 41%] Built target ignition-gazebo2-air-pressure-system
+[35m[1mScanning dependencies of target ignition-gazebo2-diff-drive-system[0m
+[ 42%] [32mBuilding CXX object src/systems/diff_drive/CMakeFiles/ignition-gazebo2-diff-drive-system.dir/DiffDrive.cc.o[0m
+[ 42%] Built target ignition-gazebo2-apply-joint-force-system
+[35m[1mScanning dependencies of target ignition-gazebo2-imu-system[0m
+[ 43%] [32mBuilding CXX object src/systems/imu/CMakeFiles/ignition-gazebo2-imu-system.dir/Imu.cc.o[0m
+[ 44%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-altimeter-system.so[0m
+[ 44%] Built target ignition-gazebo2-altimeter-system
+[35m[1mScanning dependencies of target ignition-gazebo2-joint-controller-system[0m
+[ 45%] [32mBuilding CXX object src/systems/joint_controller/CMakeFiles/ignition-gazebo2-joint-controller-system.dir/JointController.cc.o[0m
+[ 46%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-linearbatteryplugin-system.so[0m
+[ 46%] Built target ignition-gazebo2-linearbatteryplugin-system
+[ 47%] [32m[1mLinking CXX shared library ../../lib/libignition-gazebo2-rendering.so[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-joint-state-publisher-system[0m
+[ 47%] [32mBuilding CXX object src/systems/joint_state_publisher/CMakeFiles/ignition-gazebo2-joint-state-publisher-system.dir/JointStatePublisher.cc.o[0m
+[ 47%] Built target ignition-gazebo2-rendering
+[35m[1mScanning dependencies of target ignition-gazebo2-lift-drag-system[0m
+[ 48%] [32mBuilding CXX object src/systems/lift_drag/CMakeFiles/ignition-gazebo2-lift-drag-system.dir/LiftDrag.cc.o[0m
+[ 49%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-contact-system.so[0m
+[ 50%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-diff-drive-system.so[0m
+[ 51%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-joint-controller-system.so[0m
+[ 51%] Built target ignition-gazebo2-contact-system
+[35m[1mScanning dependencies of target ignition-gazebo2-log-system[0m
+[ 51%] Built target ignition-gazebo2-diff-drive-system
+[35m[1mScanning dependencies of target ignition-gazebo2-logical-camera-system[0m
+[ 51%] [32mBuilding CXX object src/systems/log/CMakeFiles/ignition-gazebo2-log-system.dir/LogRecord.cc.o[0m
+[ 52%] [32mBuilding CXX object src/systems/logical_camera/CMakeFiles/ignition-gazebo2-logical-camera-system.dir/LogicalCamera.cc.o[0m
+[ 52%] Built target ignition-gazebo2-joint-controller-system
+[ 53%] [32mBuilding CXX object src/systems/log/CMakeFiles/ignition-gazebo2-log-system.dir/LogPlayback.cc.o[0m
+[ 54%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-imu-system.so[0m
+[ 54%] Built target ignition-gazebo2-imu-system
+[35m[1mScanning dependencies of target ignition-gazebo2-magnetometer-system[0m
+[ 55%] [32mBuilding CXX object src/systems/magnetometer/CMakeFiles/ignition-gazebo2-magnetometer-system.dir/Magnetometer.cc.o[0m
+[ 56%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-joint-state-publisher-system.so[0m
+[ 56%] Built target ignition-gazebo2-joint-state-publisher-system
+[ 57%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-logical-camera-system.so[0m
+[ 58%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-lift-drag-system.so[0m
+[ 58%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-magnetometer-system.so[0m
+[ 58%] Built target ignition-gazebo2-logical-camera-system
+[ 58%] Built target ignition-gazebo2-lift-drag-system
+[ 59%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-log-system.so[0m
+[ 59%] Built target ignition-gazebo2-magnetometer-system
+[ 59%] Built target ignition-gazebo2-log-system
+[35m[1mScanning dependencies of target ignition-gazebo2-sensors-system[0m
+[ 59%] [32mBuilding CXX object src/systems/sensors/CMakeFiles/ignition-gazebo2-sensors-system.dir/Sensors.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-touchplugin-system[0m
+[ 60%] [32mBuilding CXX object src/systems/touch_plugin/CMakeFiles/ignition-gazebo2-touchplugin-system.dir/TouchPlugin.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-scene-broadcaster-system[0m
+[ 61%] [32mBuilding CXX object src/systems/scene_broadcaster/CMakeFiles/ignition-gazebo2-scene-broadcaster-system.dir/SceneBroadcaster.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-pose-publisher-system[0m
+[ 62%] [32mBuilding CXX object src/systems/pose_publisher/CMakeFiles/ignition-gazebo2-pose-publisher-system.dir/PosePublisher.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-physics-system[0m
+[ 63%] [32mBuilding CXX object src/systems/physics/CMakeFiles/ignition-gazebo2-physics-system.dir/Physics.cc.o[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-multicopter-motor-model-system[0m
+[ 64%] [32mBuilding CXX object src/systems/multicopter_motor_model/CMakeFiles/ignition-gazebo2-multicopter-motor-model-system.dir/MulticopterMotorModel.cc.o[0m
+[ 65%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-sensors-system.so[0m
+[ 65%] Built target ignition-gazebo2-sensors-system
+[35m[1mScanning dependencies of target ignition-gazebo2-user-commands-system[0m
+[ 66%] [32mBuilding CXX object src/systems/user_commands/CMakeFiles/ignition-gazebo2-user-commands-system.dir/UserCommands.cc.o[0m
+[ 67%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-touchplugin-system.so[0m
+[ 67%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-pose-publisher-system.so[0m
+[ 67%] Built target ignition-gazebo2-pose-publisher-system
+[ 67%] Built target ignition-gazebo2-touchplugin-system
+[ 68%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-scene-broadcaster-system.so[0m
+[ 68%] Built target ignition-gazebo2-scene-broadcaster-system
+[ 69%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-multicopter-motor-model-system.so[0m
+[ 69%] Built target ignition-gazebo2-multicopter-motor-model-system
+[ 70%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-user-commands-system.so[0m
+[ 70%] Built target ignition-gazebo2-user-commands-system
+[ 71%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-physics-system.so[0m
+[ 71%] Built target ignition-gazebo2-physics-system
+[ 72%] [34m[1mGenerating qrc_gazebo.cpp[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-wind-effects-system[0m
+[ 73%] [34m[1mGenerating moc_TmpIface.cpp[0m
+[ 73%] [34m[1mGenerating moc_GuiSystem.cpp[0m
+[ 74%] [34m[1mGenerating moc_GuiRunner.cpp[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-gui[0m
+[ 74%] [32mBuilding CXX object src/systems/wind_effects/CMakeFiles/ignition-gazebo2-wind-effects-system.dir/WindEffects.cc.o[0m
+[ 75%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/moc_GuiRunner.cpp.o[0m
+[ 76%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/__/__/__/__/src/gui/TmpIface.cc.o[0m
+[ 77%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/moc_TmpIface.cpp.o[0m
+[ 77%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/moc_GuiSystem.cpp.o[0m
+[ 78%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/__/__/__/__/src/gui/GuiRunner.cc.o[0m
+[ 79%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/qrc_gazebo.cpp.o[0m
+[ 80%] [32mBuilding CXX object include/ignition/gazebo/gui/CMakeFiles/ignition-gazebo2-gui.dir/ignition-gazebo2-gui_autogen/mocs_compilation.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library ../../../lib/libignition-gazebo2-wind-effects-system.so[0m
+[ 81%] Built target ignition-gazebo2-wind-effects-system
+[ 82%] [32m[1mLinking CXX shared library ../../../../lib/libignition-gazebo2-gui.so[0m
+[ 82%] Built target ignition-gazebo2-gui
+[ 83%] [34m[1mGenerating qrc_EntityTree.cpp[0m
+[ 84%] [34m[1mGenerating qrc_TransformControl.cpp[0m
+[35m[1mScanning dependencies of target ign-gazebo-gui[0m
+[ 85%] [34m[1mGenerating qrc_GzScene3D.cpp[0m
+[ 85%] [34m[1mGenerating moc_TransformControl.cpp[0m
+[35m[1mScanning dependencies of target ignition-gazebo2-ign[0m
+[ 85%] [34m[1mGenerating moc_Scene3D.cpp[0m
+[ 85%] [34m[1mGenerating moc_EntityTree.cpp[0m
+[35m[1mScanning dependencies of target TransformControl[0m
+[35m[1mScanning dependencies of target GzScene3D[0m
+[35m[1mScanning dependencies of target EntityTree[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/ign-gazebo-gui.dir/gui_main.cc.o[0m
+[ 87%] [32mBuilding CXX object src/gui/plugins/transform_control/CMakeFiles/TransformControl.dir/TransformControl.cc.o[0m
+[ 88%] [32mBuilding CXX object src/gui/plugins/transform_control/CMakeFiles/TransformControl.dir/moc_TransformControl.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/ignition-gazebo2-ign.dir/cmd/ign.cc.o[0m
+[ 89%] [32mBuilding CXX object src/gui/plugins/entity_tree/CMakeFiles/EntityTree.dir/EntityTree.cc.o[0m
+[ 90%] [32mBuilding CXX object src/gui/plugins/scene3d/CMakeFiles/GzScene3D.dir/Scene3D.cc.o[0m
+[ 91%] [32mBuilding CXX object src/gui/plugins/scene3d/CMakeFiles/GzScene3D.dir/moc_Scene3D.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/gui/plugins/scene3d/CMakeFiles/GzScene3D.dir/qrc_GzScene3D.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/gui/plugins/transform_control/CMakeFiles/TransformControl.dir/qrc_TransformControl.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/gui/plugins/entity_tree/CMakeFiles/EntityTree.dir/moc_EntityTree.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable ../bin/ign-gazebo-gui[0m
+[ 96%] [32m[1mLinking CXX shared library ../lib/libignition-gazebo2-ign.so[0m
+[ 96%] Built target ign-gazebo-gui
+[ 97%] [32mBuilding CXX object src/gui/plugins/entity_tree/CMakeFiles/EntityTree.dir/qrc_EntityTree.cpp.o[0m
+[ 98%] [32m[1mLinking CXX shared library ../../../../lib/libTransformControl.so[0m
+[ 98%] Built target TransformControl
+[ 98%] Built target ignition-gazebo2-ign
+[ 99%] [32m[1mLinking CXX shared library ../../../../lib/libGzScene3D.so[0m
+[100%] [32m[1mLinking CXX shared library ../../../../lib/libEntityTree.so[0m
+[100%] Built target GzScene3D
+[100%] Built target EntityTree
+Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 -- -j6 -l6
+Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 --target install
+[  0%] [34m[1mGenerating API documentation with Doxygen[0m
+[  0%] Built target doc
+[  4%] Built target ignition-gazebo_private_msgs
+[ 25%] Built target ignition-gazebo2
+[ 26%] Built target ign-gazebo-exec
+[ 27%] [34m[1mAutomatic MOC for target ignition-gazebo2-gui[0m
+[ 27%] Built target ignition-gazebo2-gui_autogen
+[ 37%] Built target ignition-gazebo2-gui
+[ 38%] Built target ignition-gazebo2-ign
+[ 40%] Built target ign-gazebo-gui
+[ 42%] Built target ign-gazebo-server
+[ 45%] Built target ignition-gazebo2-rendering
+[ 50%] Built target EntityTree
+[ 55%] Built target GzScene3D
+[ 60%] Built target TransformControl
+[ 62%] Built target ignition-gazebo2-air-pressure-system
+[ 64%] Built target ignition-gazebo2-altimeter-system
+[ 65%] Built target ignition-gazebo2-apply-joint-force-system
+[ 67%] Built target ignition-gazebo2-linearbatteryplugin-system
+[ 69%] Built target ignition-gazebo2-contact-system
+[ 71%] Built target ignition-gazebo2-diff-drive-system
+[ 73%] Built target ignition-gazebo2-imu-system
+[ 75%] Built target ignition-gazebo2-joint-controller-system
+[ 76%] Built target ignition-gazebo2-joint-state-publisher-system
+[ 78%] Built target ignition-gazebo2-lift-drag-system
+[ 80%] Built target ignition-gazebo2-log-system
+[ 82%] Built target ignition-gazebo2-logical-camera-system
+[ 83%] Built target ignition-gazebo2-magnetometer-system
+[ 85%] Built target ignition-gazebo2-multicopter-motor-model-system
+[ 87%] Built target ignition-gazebo2-physics-system
+[ 88%] Built target ignition-gazebo2-pose-publisher-system
+[ 90%] Built target ignition-gazebo2-scene-broadcaster-system
+[ 91%] Built target ignition-gazebo2-sensors-system
+[ 93%] Built target ignition-gazebo2-touchplugin-system
+[ 95%] Built target ignition-gazebo2-user-commands-system
+[ 96%] Built target ignition-gazebo2-wind-effects-system
+[ 98%] Built target gtest
+[100%] Built target gtest_main
+[36mInstall the project...[0m
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-all/ignition-gazebo2-all-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-all/ignition-gazebo2-all-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-all/ignition-gazebo2-all-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/ignition-gazebo2.tag.xml
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/ign/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/ign/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-ign.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-ign/ignition-gazebo2-ign-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-ign.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2/ignition-gazebo2-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-server-2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-server
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-server-2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-gui-2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-gui
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin/ign-gazebo-gui-2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-rendering/ignition-gazebo2-rendering-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-rendering.pc
+-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2.6.1
+-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so.2
+-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-rendering.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libEntityTree.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libEntityTree.so" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libGzScene3D.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libGzScene3D.so" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libTransformControl.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/gui/libTransformControl.so" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/air-pressure-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/air-pressure-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-air-pressure-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-air-pressure-system/ignition-gazebo2-air-pressure-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-air-pressure-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-air-pressure-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/altimeter-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/altimeter-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-altimeter-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-altimeter-system/ignition-gazebo2-altimeter-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-altimeter-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-altimeter-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-altimeter-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/apply-joint-force-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/apply-joint-force-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-apply-joint-force-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-apply-joint-force-system/ignition-gazebo2-apply-joint-force-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-apply-joint-force-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-apply-joint-force-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-apply-joint-force-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/linearbatteryplugin-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/linearbatteryplugin-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-linearbatteryplugin-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-linearbatteryplugin-system/ignition-gazebo2-linearbatteryplugin-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-linearbatteryplugin-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-linearbatteryplugin-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-linearbatteryplugin-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/contact-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/contact-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-contact-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-contact-system/ignition-gazebo2-contact-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-contact-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-contact-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-contact-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/diff-drive-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/diff-drive-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-diff-drive-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-diff-drive-system/ignition-gazebo2-diff-drive-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-diff-drive-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-diff-drive-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/imu-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/imu-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-imu-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-imu-system/ignition-gazebo2-imu-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-imu-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-imu-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-controller-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-controller-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-controller-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-controller-system/ignition-gazebo2-joint-controller-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-joint-controller-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-controller-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-joint-controller-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-state-publisher-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/joint-state-publisher-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-joint-state-publisher-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-joint-state-publisher-system/ignition-gazebo2-joint-state-publisher-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-joint-state-publisher-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-joint-state-publisher-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-joint-state-publisher-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/lift-drag-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/lift-drag-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-lift-drag-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-lift-drag-system/ignition-gazebo2-lift-drag-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-lift-drag-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-lift-drag-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-lift-drag-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/log-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/log-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-log-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-log-system/ignition-gazebo2-log-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-log-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-log-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/logical-camera-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/logical-camera-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-logical-camera-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-logical-camera-system/ignition-gazebo2-logical-camera-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-logical-camera-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-logical-camera-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-logical-camera-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/magnetometer-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/magnetometer-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-magnetometer-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-magnetometer-system/ignition-gazebo2-magnetometer-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-magnetometer-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-magnetometer-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/multicopter-motor-model-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/multicopter-motor-model-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-multicopter-motor-model-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-multicopter-motor-model-system/ignition-gazebo2-multicopter-motor-model-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-multicopter-motor-model-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-multicopter-motor-model-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-multicopter-motor-model-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/physics-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/physics-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-physics-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-physics-system/ignition-gazebo2-physics-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-physics-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-physics-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/pose-publisher-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/pose-publisher-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-pose-publisher-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-pose-publisher-system/ignition-gazebo2-pose-publisher-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-pose-publisher-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-pose-publisher-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/scene-broadcaster-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/scene-broadcaster-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-scene-broadcaster-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-scene-broadcaster-system/ignition-gazebo2-scene-broadcaster-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-scene-broadcaster-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-scene-broadcaster-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/sensors-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/sensors-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-sensors-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-sensors-system/ignition-gazebo2-sensors-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-sensors-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-sensors-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/touchplugin-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/touchplugin-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-touchplugin-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-touchplugin-system/ignition-gazebo2-touchplugin-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-touchplugin-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-touchplugin-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-touchplugin-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/user-commands-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/user-commands-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-user-commands-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-user-commands-system/ignition-gazebo2-user-commands-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-user-commands-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-user-commands-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/wind-effects-system/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/wind-effects-system/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-wind-effects-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-wind-effects-system/ignition-gazebo2-wind-effects-system-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-wind-effects-system.pc
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo2-wind-effects-system.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ign-gazebo-2/plugins/libignition-gazebo-wind-effects-system.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/ruby/ignition/cmdgazebo2.rb
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/gazebo2.yaml
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Actor.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/AirPressureSensor.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Altimeter.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/AngularAcceleration.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/AngularVelocity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/BatterySoC.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Camera.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/CanonicalLink.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ChildLinkName.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Collision.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Component.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ContactSensor.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ContactSensorData.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/DepthCamera.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ExternalWorldWrenchCmd.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Factory.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Geometry.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/GpuLidar.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Gravity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Imu.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Inertial.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Joint.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointAxis.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointForce.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointForceCmd.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointPosition.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointType.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointVelocity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/JointVelocityCmd.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Level.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LevelBuffer.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LevelEntityNames.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Lidar.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Light.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LinearAcceleration.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LinearVelocity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LinearVelocitySeed.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Link.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/LogicalCamera.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/MagneticField.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Magnetometer.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Material.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Model.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Name.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ParentEntity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ParentLinkName.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Performer.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/PerformerAffinity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/PerformerLevels.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Pose.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/PoseCmd.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/RgbdCamera.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Scene.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Sensor.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Serialization.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Static.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/ThreadPitch.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Visual.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/Wind.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/WindMode.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components/World.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/ComponentStorageBase.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/EntityComponentManager.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/detail/View.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/GuiRunner.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/GuiSystem.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/TmpIface.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/RenderUtil.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/rendering/SceneManager.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Conversions.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Entity.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/EntityComponentManager.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/EventManager.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Events.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Link.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Model.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/SdfEntityCreator.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Server.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/ServerConfig.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/System.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/SystemLoader.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/SystemPluginPtr.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Types.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/Util.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/../gazebo.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/config.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/components.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/detail/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/include/ignition/gazebo2/ignition/gazebo/gui/Export.hh
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2.6.1
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so
+-- Set runtime path of "/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2.6.1" to ""
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-config.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-config-version.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-targets.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/cmake/ignition-gazebo2-gui/ignition-gazebo2-gui-targets-relwithdebinfo.cmake
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2-gui.pc
+-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2.6.1
+-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so.2
+-- Up-to-date: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/libignition-gazebo2-gui.so
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/gui/gui.config
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/actor.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/apply_joint_force.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/camera_sensor.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/contact_sensor.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/debug_shapes.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/depth_camera_sensor.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/diff_drive.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/diff_drive_skid.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/empty.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/fuel.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/fuel_textured_mesh.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/gpu_lidar_sensor.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/joint_controller.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/levels.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/levels_no_performers.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/lift_drag.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/lights.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/linear_battery_demo.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_playback.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_record_dbl_pendulum.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_record_keyboard.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/log_record_shapes.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/logical_camera_sensor.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/plane_propeller_demo.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/pose_publisher.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/quadcopter.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/rolling_shapes.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/sensors.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/sensors_demo.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/shapes.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/touch_plugin.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/track_drive.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/tunnel.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/wind.sdf
+-- Installing: /home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition/ignition-gazebo2/worlds/world_joint.sdf
+Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 --target install

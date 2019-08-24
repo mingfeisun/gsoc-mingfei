@@ -1,0 +1,330 @@
+[0.865s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build', '--merge-install', '--cmake-args', '-DBUILD_TESTING=false', '--packages-select', 'ignition-gazebo2']
+[0.865s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DBUILD_TESTING=false'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f28a9ccf400>>, merge_install=True, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ignition-gazebo2'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f28a9ccf400>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f28a9ccf630>)
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.943s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mingfei/Documents/GSoC/ws_blueprint/src'
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extensions ['ignore', 'ignore_ament_install']
+[0.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'ignore'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'ignore_ament_install'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extensions ['colcon_pkg']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'colcon_pkg'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extensions ['colcon_meta']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'colcon_meta'
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extensions ['ros']
+[0.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'ros'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extensions ['cmake', 'python']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'cmake'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'python'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extensions ['python_setup_py']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src) by extension 'python_setup_py'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/build) by extension 'ignore'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/build) ignored
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'ignore'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'ignore_ament_install'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extensions ['colcon_pkg']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'colcon_pkg'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extensions ['colcon_meta']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'colcon_meta'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extensions ['ros']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'ros'
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extensions ['cmake', 'python']
+[0.961s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'cmake'
+[1.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake) by extension 'python'
+[1.036s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake' with type 'cmake' and name 'ignition-cmake2'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extensions ['ignore', 'ignore_ament_install']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'ignore'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'ignore_ament_install'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extensions ['colcon_pkg']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'colcon_pkg'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extensions ['colcon_meta']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'colcon_meta'
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extensions ['ros']
+[1.037s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'ros'
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extensions ['cmake', 'python']
+[1.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'cmake'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common) by extension 'python'
+[1.383s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common' with type 'cmake' and name 'ignition-common3'
+[1.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extensions ['ignore', 'ignore_ament_install']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'ignore'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'ignore_ament_install'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extensions ['colcon_pkg']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'colcon_pkg'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extensions ['colcon_meta']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'colcon_meta'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extensions ['ros']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'ros'
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extensions ['cmake', 'python']
+[1.384s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'cmake'
+[1.401s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools) by extension 'python'
+[1.401s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools' with type 'cmake' and name 'ignition-fuel_tools3'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'ignore'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'ignore_ament_install'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extensions ['colcon_pkg']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'colcon_pkg'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extensions ['colcon_meta']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'colcon_meta'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extensions ['ros']
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'ros'
+[1.402s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extensions ['cmake', 'python']
+[1.403s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'cmake'
+[2.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo) by extension 'python'
+[2.033s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo' with type 'cmake' and name 'ignition-gazebo2'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'ignore'
+[2.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'ignore_ament_install'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extensions ['colcon_pkg']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'colcon_pkg'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extensions ['colcon_meta']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'colcon_meta'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extensions ['ros']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'ros'
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extensions ['cmake', 'python']
+[2.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'cmake'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui) by extension 'python'
+[2.061s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui' with type 'cmake' and name 'ignition-gui2'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extensions ['ignore', 'ignore_ament_install']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'ignore'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'ignore_ament_install'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extensions ['colcon_pkg']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'colcon_pkg'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extensions ['colcon_meta']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'colcon_meta'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extensions ['ros']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'ros'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extensions ['cmake', 'python']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'cmake'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch) by extension 'python'
+[2.083s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch' with type 'cmake' and name 'ignition-launch1'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extensions ['ignore', 'ignore_ament_install']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'ignore'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'ignore_ament_install'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extensions ['colcon_pkg']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'colcon_pkg'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extensions ['colcon_meta']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'colcon_meta'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extensions ['ros']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'ros'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extensions ['cmake', 'python']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'cmake'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math) by extension 'python'
+[2.106s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math' with type 'cmake' and name 'ignition-math6'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'ignore'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'ignore_ament_install'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extensions ['colcon_pkg']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'colcon_pkg'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extensions ['colcon_meta']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'colcon_meta'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extensions ['ros']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'ros'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extensions ['cmake', 'python']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'cmake'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs) by extension 'python'
+[2.134s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs' with type 'cmake' and name 'ignition-msgs4'
+[2.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extensions ['ignore', 'ignore_ament_install']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'ignore'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'ignore_ament_install'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extensions ['colcon_pkg']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'colcon_pkg'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extensions ['colcon_meta']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'colcon_meta'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extensions ['ros']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'ros'
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extensions ['cmake', 'python']
+[2.136s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'cmake'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics) by extension 'python'
+[2.374s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics' with type 'cmake' and name 'ignition-physics1'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extensions ['ignore', 'ignore_ament_install']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'ignore'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'ignore_ament_install'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extensions ['colcon_pkg']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'colcon_pkg'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extensions ['colcon_meta']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'colcon_meta'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extensions ['ros']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'ros'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extensions ['cmake', 'python']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'cmake'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin) by extension 'python'
+[2.397s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin' with type 'cmake' and name 'ignition-plugin1'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extensions ['ignore', 'ignore_ament_install']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'ignore'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'ignore_ament_install'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extensions ['colcon_pkg']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'colcon_pkg'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extensions ['colcon_meta']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'colcon_meta'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extensions ['ros']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'ros'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extensions ['cmake', 'python']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'cmake'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering) by extension 'python'
+[2.608s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering' with type 'cmake' and name 'ignition-rendering2'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extensions ['ignore', 'ignore_ament_install']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'ignore'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'ignore_ament_install'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extensions ['colcon_pkg']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'colcon_pkg'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extensions ['colcon_meta']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'colcon_meta'
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extensions ['ros']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'ros'
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extensions ['cmake', 'python']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'cmake'
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors) by extension 'python'
+[2.635s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors' with type 'cmake' and name 'ignition-sensors2'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extensions ['ignore', 'ignore_ament_install']
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'ignore'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'ignore_ament_install'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extensions ['colcon_pkg']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'colcon_pkg'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extensions ['colcon_meta']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'colcon_meta'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extensions ['ros']
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'ros'
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extensions ['cmake', 'python']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'cmake'
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools) by extension 'python'
+[2.663s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools' with type 'cmake' and name 'ignition-tools'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extensions ['ignore', 'ignore_ament_install']
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'ignore'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'ignore_ament_install'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extensions ['colcon_pkg']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'colcon_pkg'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extensions ['colcon_meta']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'colcon_meta'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extensions ['ros']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'ros'
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extensions ['cmake', 'python']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'cmake'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport) by extension 'python'
+[2.703s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport' with type 'cmake' and name 'ignition-transport7'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/install) by extension 'ignore'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/install) ignored
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/log) by extension 'ignore'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/log) ignored
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'ignore'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'ignore_ament_install'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extensions ['colcon_pkg']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'colcon_pkg'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extensions ['colcon_meta']
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'colcon_meta'
+[2.705s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extensions ['ros']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'ros'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extensions ['cmake', 'python']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'cmake'
+[3.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat) by extension 'python'
+[3.045s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat' with type 'cmake' and name 'sdformat8'
+[3.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-cmake2' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-cmake'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-tools' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-tools'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-math6' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-math'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-common3' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-common'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-msgs4' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-msgs'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sdformat8' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/sdformat'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-fuel_tools3' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-fuel-tools'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-plugin1' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-plugin'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-transport7' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-transport'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-physics1' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-physics'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-rendering2' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-rendering'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-gui2' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gui'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-sensors2' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-sensors'
+[3.066s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ignition-launch1' in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-launch'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'cmake_args' from command line to '['-DBUILD_TESTING=false']'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'cmake_target' from command line to 'None'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'cmake_clean_first' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'cmake_force_configure' from command line to 'False'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'ament_cmake_args' from command line to 'None'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.076s] Level 5:colcon.colcon_core.verb:set package 'ignition-gazebo2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.077s] DEBUG:colcon.colcon_core.verb:Building package 'ignition-gazebo2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=false'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mingfei/Documents/GSoC/ws_blueprint/src/install', 'merge_install': True, 'path': '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.094s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.096s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mingfei/Documents/GSoC/ws_blueprint/src/ign-gazebo'
+[3.110s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.111s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.120s] WARNING:colcon.colcon_core.shell:The following packages are in the workspace but haven't been built:
+- ignition-cmake2
+- ignition-tools
+- ignition-math6
+- ignition-common3
+- ignition-msgs4
+- sdformat8
+- ignition-fuel_tools3
+- ignition-plugin1
+- ignition-transport7
+- ignition-physics1
+- ignition-rendering2
+- ignition-gui2
+- ignition-sensors2
+They are being used from the following locations instead:
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+- /home/mingfei/Documents/GSoC/ws_blueprint/install
+To suppress this warning ignore these packages in the workspace:
+--packages-ignore ignition-cmake2 ignition-tools ignition-math6 ignition-common3 ignition-msgs4 sdformat8 ignition-fuel_tools3 ignition-plugin1 ignition-transport7 ignition-physics1 ignition-rendering2 ignition-gui2 ignition-sensors2
+[3.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 -- -j6 -l6
+[9.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 -- -j6 -l6
+[9.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 --target install
+[18.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ignition-gazebo2)
+[18.599s] Level 1:colcon.colcon_core.environment:checking '/home/mingfei/Documents/GSoC/ws_blueprint/src/install' for CMake module files
+[18.601s] Level 1:colcon.colcon_core.environment:checking '/home/mingfei/Documents/GSoC/ws_blueprint/src/install' for CMake config files
+[18.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition-gazebo2', 'cmake_prefix_path')
+[18.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/cmake_prefix_path.ps1'
+[18.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/cmake_prefix_path.sh'
+[18.614s] Level 1:colcon.colcon_core.environment:checking '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib'
+[18.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition-gazebo2', 'ld_library_path_lib')
+[18.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/ld_library_path_lib.ps1'
+[18.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/ld_library_path_lib.sh'
+[18.622s] Level 1:colcon.colcon_core.environment:checking '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/bin'
+[18.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition-gazebo2', 'path')
+[18.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/path.ps1'
+[18.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/path.sh'
+[18.631s] Level 1:colcon.colcon_core.environment:checking '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/pkgconfig/ignition-gazebo2.pc'
+[18.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('ignition-gazebo2', 'pkg_config')
+[18.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/pkg_config.ps1'
+[18.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/hook/pkg_config.sh'
+[18.639s] Level 1:colcon.colcon_core.environment:checking '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/lib/python3.6/site-packages'
+[18.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/package.ps1'
+[18.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/package.sh'
+[18.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/package.bash'
+[18.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/ignition-gazebo2/package.zsh'
+[18.650s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mingfei/Documents/GSoC/ws_blueprint/src/install/share/colcon-core/packages/ignition-gazebo2)
+[18.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.651s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2' returned '0': /usr/bin/cmake --build /home/mingfei/Documents/GSoC/ws_blueprint/src/build/ignition-gazebo2 --target install
+[18.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.683s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.688s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.703s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/local_setup.ps1'
+[18.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/setup.ps1'
+[18.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/local_setup.sh'
+[18.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/setup.sh'
+[18.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/local_setup.bash'
+[18.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/setup.bash'
+[18.730s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/local_setup.zsh'
+[18.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mingfei/Documents/GSoC/ws_blueprint/src/install/setup.zsh'

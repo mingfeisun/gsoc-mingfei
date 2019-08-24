@@ -1,0 +1,252 @@
+/*
+ * Copyright (C) 2018 Open Source Robotics Foundation
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+#include <gtest/gtest.h>
+
+#include <iostream>
+#include <set>
+
+#include <ignition/math/Vector3.hh>
+#include <ignition/math/eigen3/Conversions.hh>
+
+#include <ignition/physics/FindFeatures.hh>
+#include <ignition/plugin/Loader.hh>
+#include <ignition/physics/RequestEngine.hh>
+
+// Features
+#include <ignition/physics/ForwardStep.hh>
+#include <ignition/physics/FrameSemantics.hh>
+#include <ignition/physics/GetContacts.hh>
+#include <ignition/physics/GetEntities.hh>
+#include <ignition/physics/Shape.hh>
+#include <ignition/physics/sdf/ConstructWorld.hh>
+
+#include <sdf/Root.hh>
+#include <sdf/World.hh>
+
+#include <test/PhysicsPluginsList.hh>
+#include <test/Utils.hh>
+
+using TestFeatureList = ignition::physics::FeatureList<
+  ignition::physics::LinkFrameSemantics,
+  ignition::physics::ForwardStep,
+  ignition::physics::GetContactsFromLastStepFeature,
+  ignition::physics::GetEntities,
+  ignition::physics::GetShapeBoundingBox,
+  ignition::physics::sdf::ConstructSdfWorld
+>;
+
+using TestWorldPtr = ignition::physics::World3dPtr<TestFeatureList>;
+using TestShapePtr = ignition::physics::Shape3dPtr<TestFeatureList>;
+using ContactPoint = ignition::physics::World3d<TestFeatureList>::ContactPoint;
+
+std::unordered_set<TestWorldPtr> LoadWorlds(
+    const std::string &_library,
+    const std::string &_world)
+{
+  ignition::plugin::Loader loader;
+  loader.LoadLib(_library);
+
+  const std::set<std::string> pluginNames =
+      ignition::physics::FindFeatures3d<TestFeatureList>::From(loader);
+
+  EXPECT_LT(0u, pluginNames.size());
+
+  std::unordered_set<TestWorldPtr> worlds;
+  for (const std::string &name : pluginNames)
+  {
+    ignition::plugin::PluginPtr plugin = loader.Instantiate(name);
+
+    std::cout << " -- Plugin name: " << name << std::endl;
+
+    auto engine =
+        ignition::physics::RequestEngine3d<TestFeatureList>::From(plugin);
+    EXPECT_NE(nullptr, engine);
+
+    sdf::Root root;
+    const sdf::Errors &errors = root.Load(_world);
+    EXPECT_EQ(0u, errors.size());
+    const sdf::World *sdfWorld = root.WorldByIndex(0);
+    auto world = engine->ConstructWorld(*sdfWorld);
+
+    worlds.insert(world);
+  }
+
+  return worlds;
+}
+
+class SimulationFeatures_TEST
+  : public ::testing::Test,
+    public ::testing::WithParamInterface<std::string>
+{};
+
+// Test that the dartsim plugin loaded all the relevant information correctly.
+TEST_P(SimulationFeatures_TEST, Falling)
+{
+  const std::string library = GetParam();
+  if (library.empty())
+    return;
+
+  std::cout << "Testing library " << library << std::endl;
+  auto worlds = LoadWorlds(library, TEST_WORLD_DIR "/falling.world");
+
+  for (const auto &world : worlds)
+  {
+    ignition::physics::ForwardStep::Input input;
+    ignition::physics::ForwardStep::State state;
+    ignition::physics::ForwardStep::Output output;
+
+    for (size_t i = 0; i < 1000; ++i)
+    {
+      world->Step(output, state, input);
+    }
+
+    auto link = world->GetModel(0)->GetLink(0);
+    auto pos = link->FrameDataRelativeToWorld().pose.translation();
+    EXPECT_NEAR(pos.z(), 1.0, 5e-2);
+  }
+}
+
+TEST_P(SimulationFeatures_TEST, ShapeBoundingBox)
+{
+  const std::string library = GetParam();
+  if (library.empty())
+    return;
+
+  auto worlds = LoadWorlds(library, TEST_WORLD_DIR "/falling.world");
+
+  for (const auto &world : worlds)
+  {
+    auto sphere = world->GetModel("sphere");
+    auto sphereCollision = sphere->GetLink(0)->GetShape(0);
+    auto ground = world->GetModel("box");
+    auto groundCollision = ground->GetLink(0)->GetShape(0);
+
+    // Test the bounding boxes in the local frames
+    auto sphereAABB =
+        sphereCollision->GetAxisAlignedBoundingBox(*sphereCollision);
+
+    auto groundAABB =
+        groundCollision->GetAxisAlignedBoundingBox(*groundCollision);
+
+    EXPECT_EQ(ignition::math::Vector3d(-1, -1, -1),
+              ignition::math::eigen3::convert(sphereAABB).Min());
+    EXPECT_EQ(ignition::math::Vector3d(1, 1, 1),
+              ignition::math::eigen3::convert(sphereAABB).Max());
+    EXPECT_EQ(ignition::math::Vector3d(-50, -50, -0.5),
+              ignition::math::eigen3::convert(groundAABB).Min());
+    EXPECT_EQ(ignition::math::Vector3d(50, 50, 0.5),
+              ignition::math::eigen3::convert(groundAABB).Max());
+
+    // Test the bounding boxes in the world frames
+    sphereAABB = sphereCollision->GetAxisAlignedBoundingBox();
+    groundAABB = groundCollision->GetAxisAlignedBoundingBox();
+
+    // The sphere shape has a radius of 1.0, so its bounding box will have
+    // dimensions of 1.0 x 1.0 x 1.0. When that bounding box is transformed by
+    // a 45-degree rotation, the dimensions that are orthogonal to the axis of
+    // rotation will dilate from 1.0 to sqrt(2).
+    const double d = std::sqrt(2);
+    EXPECT_EQ(ignition::math::Vector3d(-d, -1, 2.0 - d),
+              ignition::math::eigen3::convert(sphereAABB).Min());
+    EXPECT_EQ(ignition::math::Vector3d(d, 1, 2 + d),
+              ignition::math::eigen3::convert(sphereAABB).Max());
+    EXPECT_EQ(ignition::math::Vector3d(-50*d, -50*d, -1),
+              ignition::math::eigen3::convert(groundAABB).Min());
+    EXPECT_EQ(ignition::math::Vector3d(50*d, 50*d, 0),
+              ignition::math::eigen3::convert(groundAABB).Max());
+  }
+}
+
+TEST_P(SimulationFeatures_TEST, RetrieveContacts)
+{
+  const std::string library = GetParam();
+  if (library.empty())
+    return;
+
+  auto worlds = LoadWorlds(library, TEST_WORLD_DIR "/contact.sdf");
+
+
+  for (const auto &world : worlds)
+  {
+    auto sphere = world->GetModel("sphere");
+    auto groundPlane = world->GetModel("ground_plane");
+    auto groundPlaneCollision = groundPlane->GetLink(0)->GetShape(0);
+
+    ignition::physics::ForwardStep::Input input;
+    ignition::physics::ForwardStep::State state;
+    ignition::physics::ForwardStep::Output output;
+
+    world->Step(output, state, input);
+
+    auto contacts = world->GetContactsFromLastStep();
+    EXPECT_EQ(4u, contacts.size());
+
+    // Use a set because the order of collisions is not determined.
+    std::set<TestShapePtr> possibleCollisions = {
+        groundPlaneCollision,
+        sphere->GetLink(0)->GetShape(0),
+        sphere->GetLink(1)->GetShape(0),
+        sphere->GetLink(2)->GetShape(0),
+        sphere->GetLink(3)->GetShape(0),
+    };
+    std::map<TestShapePtr, Eigen::Vector3d> expectations
+    {
+      {sphere->GetLink(0)->GetShape(0), {0.0, 0.0, 0.0}},
+      {sphere->GetLink(1)->GetShape(0), {0.0, 1.0, 0.0}},
+      {sphere->GetLink(2)->GetShape(0), {1.0, 0.0, 0.0}},
+      {sphere->GetLink(3)->GetShape(0), {1.0, 1.0, 0.0}},
+    };
+
+    for (auto &contact : contacts)
+    {
+      const auto &contactPoint = contact.Get<ContactPoint>();
+      ASSERT_TRUE(contactPoint.collision1);
+      ASSERT_TRUE(contactPoint.collision2);
+
+      EXPECT_TRUE(possibleCollisions.find(contactPoint.collision1) !=
+                  possibleCollisions.end());
+      EXPECT_TRUE(possibleCollisions.find(contactPoint.collision2) !=
+                  possibleCollisions.end());
+      EXPECT_NE(contactPoint.collision1, contactPoint.collision2);
+
+      Eigen::Vector3d expectedContactPos = Eigen::Vector3d::Zero();
+      // One of the two collisions is the ground plane and the other is the
+      // collision we're interested in.
+      try
+      {
+        expectedContactPos = expectations.at(contactPoint.collision1);
+      }
+      catch (...)
+      {
+        expectedContactPos = expectations.at(contactPoint.collision2);
+      }
+
+      EXPECT_TRUE(ignition::physics::test::Equal(expectedContactPos,
+                                                 contactPoint.point, 1e-6));
+    }
+  }
+}
+
+INSTANTIATE_TEST_CASE_P(PhysicsPlugins, SimulationFeatures_TEST,
+    ::testing::ValuesIn(ignition::physics::test::g_PhysicsPluginLibraries),); // NOLINT
+
+int main(int argc, char *argv[])
+{
+  ::testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+}
