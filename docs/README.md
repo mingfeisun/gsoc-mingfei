@@ -87,7 +87,7 @@ The updating of an actor requires to update the global pose (i.e., following tra
 To synchronize the trajectory following and animation playing, a new class, `TrajectoryInfo`, was created under the same file with `common::Animation`, see [ign-common PR](https://bitbucket.org/ignitionrobotics/ign-common/pull-requests/197). 
 * `ignition::common::TrajectoryInfo`: Information about a trajectory for an animation (e.g., Actor). This contains the keyframe information. 
 
-The class `TrajectoryInfo` has a member function `DistanceSoFar` to caculate the elapsed distance in the trajectory. The elapsed distance is used to interpolate the local transformations in `SceneManager::ActorMeshAnimationAt` so that the local animation transformations are aligned with the global actor poses. Then the actor pose is updated in `RenderUtil::Update` as follows:
+The class `TrajectoryInfo` has a member function `DistanceSoFar` to calculate the elapsed distance in the trajectory. The elapsed distance is used to interpolate the local transformations in `SceneManager::ActorMeshAnimationAt` so that the local animation transformations are aligned with the global actor poses. Then the actor pose is updated in `RenderUtil::Update` as follows:
 
 ``` C++
 for (auto &tf : actorTransforms)
@@ -110,7 +110,7 @@ Below is a demo to show the synchronized result.
 
 <img src="gazebo_sequence.gif" alt="gazebo_sequence" width="400px"/>
 
-Several common actor models are created in the [Fuel](https://app.ignitionrobotics.org/fuel/models) for quick demonstrations and fast prototypings. 
+Several common actor models are created in the [Fuel](https://app.ignitionrobotics.org/fuel/models) for quick demonstrations and fast prototyping. 
 
 * actor: https://app.ignitionrobotics.org/Mingfei/models/actor
 * actor_gesture: https://app.ignitionrobotics.org/Mingfei/models/actor_gesture
@@ -151,7 +151,7 @@ To use the above model, we include the model in the sdf file. For example, the f
 ```
 
 ### Using actor tag
-The actor can also be manully specified in the sdf models, .e.g., 
+The actor can also be manually specified in the sdf models, .e.g., 
 
 ``` xml
 <actor name="actor">
@@ -187,7 +187,7 @@ The actor can also be manully specified in the sdf models, .e.g.,
 
 **Actor-related PRs**:
 
-All Actore-related PRs of this project are listed below. 
+All Actor-related PRs of this project are listed below. 
 
 * Ign-msgs: https://bitbucket.org/ignitionrobotics/ign-msgs/pull-requests/147 [Released in ign-msgs 4.6.0]
 * sdformat: https://bitbucket.org/osrf/sdformat/pull-requests/547 [Released in SDFormat 8.3.0]
