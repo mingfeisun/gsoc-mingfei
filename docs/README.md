@@ -186,7 +186,8 @@ The actor can also be manully specified in the sdf models, .e.g.,
 ## Code release
 
 **Actor-related PRs**:
-All PRs of this project are listed below. 
+
+All Actore-related PRs of this project are listed below. 
 
 * Ign-msgs: https://bitbucket.org/ignitionrobotics/ign-msgs/pull-requests/147 [Released in ign-msgs 4.6.0]
 * sdformat: https://bitbucket.org/osrf/sdformat/pull-requests/547 [Released in SDFormat 8.3.0]
@@ -195,13 +196,15 @@ All PRs of this project are listed below.
 * Ign-gazebo: https://bitbucket.org/ignitionrobotics/ign-gazebo/pull-requests/414 [Released in ign-gazebo3]
 
 **Documentation-related PRs**:
-This project also created PRs to improve the readability of the installatio docs. 
+
+This project also created PRs to improve the readability of the installation docs. 
 
 * https://bitbucket.org/ignitionrobotics/docs/pull-requests/20
 * https://bitbucket.org/ignitionrobotics/docs/pull-requests/21
 * https://bitbucket.org/ignitionrobotics/docs/pull-requests/25
 
 **Other bug-related PRs**:
+
 This project also solves several bugs in existing repositories. 
 
 * Ign-transport: https://bitbucket.org/ignitionrobotics/ign-transport/pull-requests/388
