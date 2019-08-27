@@ -1,4 +1,4 @@
-1581 6ce39de0054f9331409ae43ff9ade57efc106686
+1628 d7f029a7813caa587b01c9a332d64773df6f4c84
 54fd57b5cf058eaf65fd9b9d45073bbbd6a38a05 ignition-common2_2.0.0
 62a655703a73eda472b6a91a64b3ddc1496671cb ignition-common2_2.0.0~pre1
 e045c74ba7e5a9e3021bb2ae9ff89b41c8568829 ignition-common3_3.0.0
@@ -13,6 +13,7 @@ c699b70693f9209ef44a4ec922fb5ccfaae18819 ignition-common3_3.0.0~pre3
 79f0cb1e2be52c80644d21f84b9be77e345d6102 ignition-common3_3.0.0~pre5
 c6d4da1fca3d3ff326a3451007a92a184761ec91 ignition-common3_3.1.0
 9a05ba303b2bd67c5270d3cfe3b122d03dc5f01f ignition-common3_3.1.0~pre1
+7a478aa5c2baa6b70b9511eefa529172a4a8dfce ignition-common3_3.2.0
 b150425543e8ddfe5ca4cdd0636261ad92ea0048 ignition-common_0.1.0
 97a69d550a9eb16ecf4f8191748613af3c0726da ignition-common_0.2.0
 404d525d8355e845643a6dcefbe8b68ca6b5571c ignition-common_0.3.0
